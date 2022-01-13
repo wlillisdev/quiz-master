@@ -1,5 +1,5 @@
 /* import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Libre+Franklin:wght@600&family=Montserrat&family=Roboto&display=swap');
 
 /* General */
 * {
@@ -14,10 +14,73 @@ body {
     flex-direction: column;
     font-family: 'roboto', sans-serif;
     font-weight: 250;
-  }
-  
-  a {
+    background-color: whitesmoke;
+}
+
+a {
     text-decoration: none;
 }
 
+/* Headings & Logo */
+h1,
+h2 {
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #000033;
+}
 
+#site-header {
+    font-size: 110%;
+}
+
+#logo {
+    text-shadow: 2px 2px 5px #808080;
+    margin-left: 8px;
+    font-family: "boogaloo", Arial;
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+}
+
+/* menus nav stylying */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#menu li {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: skyblue;
+}
+
+.active {
+    border-bottom: 1px dotted grey;
+}
+
+#site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+    text-align: center;
+    background-color: wheat;
+}
+
+#menu li {
+    display: inline-flex;
+    margin: 0 10px;
+    list-style-type: none;
+}
