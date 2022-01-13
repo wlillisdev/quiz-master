@@ -26,7 +26,7 @@ h1,
 h2 {
     font-family: 'montserrat', sans-serif;
     text-transform: uppercase;
-    color: #000033;
+    color: black;
 }
 
 #site-header {
@@ -51,6 +51,8 @@ h2 {
 #menu li {
     margin-right: 8px;
     font-weight: bold;
+    font-family: "boogaloo", Arial;
+    font-size: 1.5rem;
 }
 
 #menu a {
@@ -63,11 +65,11 @@ h2 {
 }
 
 #menu a:hover {
-    color: skyblue;
+    color: red;
 }
 
 .active {
-    border-bottom: 1px dotted grey;
+    border-bottom: 1px dashed black;
 }
 
 #site-header {
@@ -76,7 +78,8 @@ h2 {
     align-items: center;
     padding: 15px 5px;
     text-align: center;
-    background-color: wheat;
+    background-color: rgb(222, 202, 135);
+
 }
 
 #menu li {
@@ -84,3 +87,26 @@ h2 {
     margin: 0 10px;
     list-style-type: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+
+    /* Using flexbox column for responsiveness */
+
+    #site-header {
+
+        flex-direction: column;
+        padding: 5px 0 5px;
+    }
