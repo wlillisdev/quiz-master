@@ -39,6 +39,7 @@ h2 {
     font-family: "boogaloo", Arial;
     letter-spacing: 1.5px;
     font-size: 2rem;
+    color: gold;
 }
 
 /* menus nav stylying */
@@ -65,11 +66,11 @@ h2 {
 }
 
 #menu a:hover {
-    color: red;
+    color: orange;
 }
 
 .active {
-    border-bottom: 1px double black;
+    border-bottom: 1px double white;
 }
 
 #site-header {
@@ -78,7 +79,9 @@ h2 {
     align-items: center;
     padding: 15px 5px;
     text-align: center;
-    background-color: rgb(250, 230, 166);
+    background-color:  #000033;
+    color:gold;
+    ;
 
 }
 
