@@ -1,1 +1,23 @@
 /* import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Montserrat&family=Roboto&display=swap');
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', sans-serif;
+    font-weight: 250;
+  }
+  
+  a {
+    text-decoration: none;
+}
+
+
