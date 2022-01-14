@@ -143,12 +143,16 @@ h2 {
     cursor: pointer;
     color: white;
 }
+/* About Us Section Homepage */
 
-
-
-
-
-
+.text-about{
+    text-align: center;
+    padding: 15px 15px;
+    font-family: "roboto";
+    line-height: 2rem;
+    background-color:  rgb(254, 193, 0);
+    border-style: ridge;
+}
 
 
 
@@ -166,7 +170,7 @@ h2 {
     }
 
     #text-hero {
-        font-size: 4vw;
+        font-size: 50%;
     }
 
 }
