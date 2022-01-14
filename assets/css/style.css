@@ -89,6 +89,20 @@ h2 {
     list-style-type: none;
 }
 
+/* Hero Image */
+
+.hero {
+    height: 500px;
+    background-image: url(../images/quizz-hero.png);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 
