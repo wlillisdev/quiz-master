@@ -152,6 +152,7 @@ h2 {
     line-height: 2rem;
     background-color:  rgb(254, 193, 0);
     border-style: ridge;
+    font-size: 1.2rem;
 }
 
 
@@ -172,5 +173,20 @@ h2 {
     #text-hero {
         font-size: 50%;
     }
+    .heading-hero-line{
+        font-size: 6rem;
+    }
+    .heading-hero{
+        font-size: 2rem;
+    }
 
 }
+
+/* @media (max-width: 600px) {
+
+    /* homepage */
+    /* .card-wrapper {
+        column-count: 2;
+        display: block;
+    }
+} */ 
