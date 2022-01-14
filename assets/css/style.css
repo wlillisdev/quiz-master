@@ -66,7 +66,7 @@ h2 {
 }
 
 #menu a:hover {
-    color: orange;
+    color: black;
 }
 
 .active {
@@ -79,8 +79,8 @@ h2 {
     align-items: center;
     padding: 15px 5px;
     text-align: center;
-    background-color: rgb(254,193,0);
-    color:white;    
+    background-color: rgb(254, 193, 0);
+    color: white;
 }
 
 #menu li {
@@ -93,7 +93,7 @@ h2 {
 
 .hero {
     height: 500px;
-    background-image: url(../images/quizz-hero.png);
+    background-image: url(../images/hero-books.jpg);
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -106,10 +106,8 @@ h2 {
 
 #text-hero {
     color: white;
-    text-transform: capitalize;
     text-align: center;
-    color: white;
-    text-shadow: rgb(254,193,0);
+
     /* background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
     line-height: 35px; */
@@ -119,16 +117,31 @@ h2 {
     min-width: 50vw;
 }
 
-.heading-hero{
+.heading-hero {
     font-family: "Libre Franklin", Arial;
     font-size: 3rem;
     text-transform: capitalize;
+    text-shadow: 2px 2px rgb(254, 193, 0);
 
 }
 
-.heading-hero-line{
+.heading-hero-line {
     font-family: "Libre Franklin", Arial;
     font-size: 10rem;
+    text-shadow: 4px 4px rgb(254, 193, 0);
+
+}
+
+.hero-button {
+    font-size: 1.5rem;
+    background-color: rgb(254, 193, 0);
+    padding: 3px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: .3rem 2.5rem;
+    border: groove;
+    cursor: pointer;
+    color: white;
 }
 
 
@@ -151,3 +164,9 @@ h2 {
         flex-direction: column;
         padding: 5px 0 5px;
     }
+
+    #text-hero {
+        font-size: 4vw;
+    }
+
+}
