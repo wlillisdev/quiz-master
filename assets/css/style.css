@@ -276,7 +276,7 @@ h2 {
 
 .quizz-sport-hero {
     height: 150px;
-    background-image: url(../images/sport-2.png);
+    background-image: url(../images/sports-new-re1.png);
     width: 100%;
     position: relative;
     align-items: center;
@@ -286,6 +286,9 @@ h2 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
 }
 
 .quizz-hero-text{
