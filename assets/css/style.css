@@ -307,6 +307,23 @@ h2 {
     border-color: black;
     border-width: 2px;
 }
+
+.quizz-music-hero {
+    height: 150px;
+    background-image: url(../images/music.png);
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
+}
 .quizz-hero-text{
     background-color: rgb(39, 48, 73);
     font-size: 3rem;
@@ -318,6 +335,7 @@ h2 {
     border-radius: 20px;
     letter-spacing: 2px;    
 }
+
 
 .quizz-hero-text:hover {
     background-color: rgb(254, 193, 0);
