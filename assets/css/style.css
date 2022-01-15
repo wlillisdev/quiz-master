@@ -325,8 +325,8 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: ridge;
-   border-color: rgb(187, 185, 181);
-    border-width: 5px;
+    border-color: rgb(187, 185, 181);
+    border-width: 2px;
 }
 .quizz-hero-text{
     background-color: rgb(39, 48, 73);
@@ -360,17 +360,19 @@ h2 {
 .contact-us {
     margin: 150px 10% 0 0;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgb(39, 48, 73);
     border-radius: 20px;
     border: groove;
+    border-width: 5px;
     max-width: 400px;
     position: absolute;
-    left: 10%;
+    left: 15%;
     padding: 30px;
 }
 .signup-form>h2 {
     color: #CCCCCC;
     margin-bottom: 20px;
+    
 }
 .text-input {
     background: transparent;
@@ -382,7 +384,7 @@ h2 {
     border-radius: 5px;
 }
 .text-input:hover {
-    border-color: grey;
+    border-color: rgb(254, 193, 0)
 }
 .join-button {
     margin-top: 20px;
@@ -397,7 +399,7 @@ h2 {
     cursor: pointer;
 }
 .join-button:hover {
-    background-color: lightgrey;
+    background-color: rgb(254, 193, 0);
     color: black;
 }
 
