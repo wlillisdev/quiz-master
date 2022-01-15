@@ -173,6 +173,8 @@ h2 {
     padding-top: 15px;
     padding-bottom: 20px;
     font-size: 2rem;
+    font-family: "boogaloo", Arial;
+    letter-spacing: 2px;
     background-color: rgb(187, 185, 181);
 }
 
@@ -190,7 +192,7 @@ h2 {
     height: 215px;
     width: 215px;
     border-radius: 50%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     margin-left: 5px;
     margin right: 5px;
     background: rgb(39, 48, 73);
@@ -201,7 +203,6 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #square:hover {
