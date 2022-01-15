@@ -23,7 +23,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="index.html" >Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="quizzes.html">Quizzes</a>
@@ -36,7 +36,21 @@
     </header>
     <!--main-body-->
     <main>
-        
+        <!--contact-us-form-->
+        <section class="form-section">
+            <form class="contact-us" method="GET" action="thank-you.html">
+                <h2 class="contact-header">Start Your Dream Home Today <i class="fas fa-home"></i> </h2>
+                <label for="fname">First Name</label>
+                <input id="fname" class="text-input" type="text" name="first_name" required />
+                <label for="lname">Last Name</label>
+                <input id="lname" class="text-input" type="text" name="last_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required />
+                <input class="join-button" type="submit" value="Contact Us" />
+            </form>
+        </section>
+
+
     </main>
     <!--footer-section-->
     <footer id="footer">
