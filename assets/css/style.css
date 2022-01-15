@@ -148,25 +148,66 @@ h2 {
     transform: translate(4px);
     box-shadow: 0 5px rgb(182, 182, 182);
 }
+
 .hero-button:hover {
     background-color: rgb(182, 182, 182);
 }
 
 /* About Us Section Homepage */
 
-.text-about{
+.text-about {
     text-align: center;
     padding: 15px;
     font-family: "roboto";
     line-height: 2rem;
-    background-color:  rgb(254, 193, 0);
+    background-color: rgb(254, 193, 0);
     border-style: ridge;
     font-size: 1.2rem;
+    border-width: 5px;
+}
+
+/* Quizz Categories Section */
+
+.section-heading {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.quizz-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#square {
+    height: 215px;
+    width: 215px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin right: 5px;
+    background: crimson;
+    
+
+
+
+
 }
 
 
 
 
+/* Media Query Section */
+
+/* 
+@media (max-width: 900px) {
+    .quizz-wrapper {
+        flex: 2
+        
+    }
+} */
 
 @media (max-width: 800px) {
 
@@ -182,20 +223,23 @@ h2 {
     #text-hero {
         font-size: 50%;
     }
-    .heading-hero-line{
+
+    .heading-hero-line {
         font-size: 6rem;
     }
-    .heading-hero{
+
+    .heading-hero {
         font-size: 2rem;
     }
+
 
 }
 
 /* @media (max-width: 600px) {
 
     /* homepage */
-    /* .card-wrapper {
+/* .card-wrapper {
         column-count: 2;
         display: block;
     }
-} */ 
+} */
