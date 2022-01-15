@@ -270,8 +270,10 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: ridge;
-    border-color: black;
-    border-width: 2px;
+    border-color: rgb(187, 185, 181);
+    border-width: 5px;
+    
+     
 }
 
 .quizz-sport-hero {
@@ -287,8 +289,8 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: ridge;
-    border-color: black;
-    border-width: 2px;
+    border-color: rgb(187, 185, 181);
+    border-width: 5px;
        
 }
 
@@ -306,7 +308,8 @@ h2 {
     background-repeat: no-repeat;
     border-style: ridge;
     border-color: black;
-    border-width: 2px;
+    border-color: rgb(187, 185, 181);
+    border-width: 5px;
 }
 
 .quizz-music-hero {
@@ -322,8 +325,8 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     border-style: ridge;
-    border-color: black;
-    border-width: 2px;
+   border-color: rgb(187, 185, 181);
+    border-width: 5px;
 }
 .quizz-hero-text{
     background-color: rgb(39, 48, 73);
