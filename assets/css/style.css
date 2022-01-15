@@ -102,11 +102,19 @@ h2 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    
 }
+.hero{
 
+    background-image: linear-gradient rgba (0, 0, 0, 0, .5);
+    
+}
 #text-hero {
     color: white;
     text-align: center;
+    position: absolute;
+   
 
     /* background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
@@ -213,6 +221,35 @@ h2 {
     font-size: 3rem;
     letter-spacing: 2px;
 }
+
+
+/* Footer */
+
+#footer {
+    background-color: #000033;
+}
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+.footer-text {
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+.fa-facebook-square {
+    color: white;
+}
+.fa-instagram-square {
+    color: white;
+}
+.fa-youtube {
+    color: white;
+}
+
 
 
 
