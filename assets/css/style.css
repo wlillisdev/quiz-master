@@ -271,6 +271,29 @@ h2 {
     background-repeat: no-repeat;
 }
 
+.quizz-hero-text{
+
+    background-color: rgb(39, 48, 73);
+    font-size: 3rem;
+    color: white;
+    padding:15px;
+    border-style: ridge;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media Query Section */
