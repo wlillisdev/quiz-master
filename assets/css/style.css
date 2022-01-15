@@ -180,20 +180,24 @@ h2 {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
+   
 }
 
 #square {
     height: 215px;
     width: 215px;
+    border-radius: 50%;
     margin-bottom: 30px;
     margin-left: 5px;
     margin right: 5px;
-    background: crimson;
-    
-
-
-
-
+    background: rgb(39,48,73);
+    border-style: ridge;
+    font-size: 1.2rem;
+    border-width: 5px;
+    display: flex; /* or inline-flex */
+    align-items: center; 
+    justify-content: center;
+       
 }
 
 
