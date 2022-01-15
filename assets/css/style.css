@@ -226,7 +226,7 @@ h2 {
 /* Footer */
 
 #footer {
-    background-color: #000033;
+    background-color: rgb(254, 193, 0);
 }
 .footer-wrapper {
     display: flex;
@@ -234,22 +234,25 @@ h2 {
     justify-content: space-evenly;
     padding: 5px;
     padding-bottom: 10px;
-}
+ }
 .footer-text {
     text-align: center;
-    color: white;
+    color: black;
     padding-top: 5px;
 }
 .fa-facebook-square {
-    color: white;
+    color: black;
 }
 .fa-instagram-square {
-    color: white;
+    color: black;
 }
 .fa-youtube {
-    color: white;
+    color: black;
 }
 
+.fa-facebook-square:hover, .fa-instagram-square:hover, .fa-youtube:hover {
+    background-color: white;
+}
 
 
 
