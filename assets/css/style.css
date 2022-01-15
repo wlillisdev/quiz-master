@@ -256,10 +256,27 @@ h2 {
 }
 
 /* Quizzes Page*/
-
+/* Triva */
 .quizz-triva-hero {
     height: 150px;
     background-image: url(../images/map-of-world-1.png);
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: ridge;
+    border-color: black;
+    border-width: 2px;
+}
+
+.quizz-sport-hero {
+    height: 150px;
+    background-image: url(../images/sport-2.png);
     width: 100%;
     position: relative;
     align-items: center;
