@@ -4,7 +4,6 @@
  * And the end of quizz it will give the user how many quesion they got right.
  */
 
-
 function check() {
     // Define Quizz Vairables.
     var question1 = document.quiz.question1.value;
@@ -38,8 +37,8 @@ function check() {
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-    var messages = ["Great job!", "That's just okay", "You really need to do better"];
-    var score;
+    var messages = ["Amazing Great Job!", "Nice Try Good job", "Not Great,Try Again"];
+    
     //determines 3 diffrent ranges for users score .
     
     var range;
@@ -58,7 +57,7 @@ function check() {
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
     //after user submits quizz user final score,a message and a pictuer will appear.
-    document.getElementById("message").innerHTML = messages[score];
+    document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[score];
 }
