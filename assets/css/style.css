@@ -350,11 +350,12 @@ h2 {
 /* contact us form*/
 
 .form-section {
-    clear: left;
-    background: url(../images/keys-contact-back.jpg);
+    /* clear: left; */
+    position: relative;
+      /* background: url(../images/keys-contact-back.jpg);
     background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-position: center; */
+    height: 100vh;
 }
 
 .contact-header {
@@ -362,7 +363,7 @@ h2 {
 }
 
 .contact-us {
-    margin: 150px 10% 0 0;
+    margin: 100px 10% 0 0;
     color: white;
     background-color: rgb(39, 48, 73);
     border-radius: 20px;
@@ -370,7 +371,7 @@ h2 {
     border-width: 5px;
     max-width: 400px;
     position: absolute;
-    left: 15%;
+    left: 10%;
     padding: 30px;
 }
 
@@ -413,10 +414,12 @@ h2 {
 }
 
 .video-contact {
-    height: 1000px;
+    position: absolute;
+    height: 100%;
     width: 100%;
     object-fit: cover;
-    opacity: .8;%
+    opacity: .8;
+   
 
 }
 
