@@ -35,7 +35,7 @@ function check() {
 
 
 
-    // array of pictuers and comments that will appear .
+    // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
     var messages = ["Great job!", "That's just okay", "You really need to do better"];
