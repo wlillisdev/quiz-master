@@ -16,6 +16,7 @@ function check() {
 
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
+    // TRIVA Quizz Answers
     if (question1 == "Providence") {
         correct++;
     }
@@ -25,6 +26,15 @@ function check() {
     if (question3 == "Albany") {
         correct++;
     }
+
+
+    // Sports Quizz Answers
+
+
+
+
+
+
     // array of pictuers and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
