@@ -422,11 +422,35 @@ h2 {
     opacity: .8;
 }
 
-/* contact us form*/
+/* Quizz Triva Page*/
 
-.quizz-container{
+.wrapper{
+    /* position:relative; */
+    /* top: 50%; */
+    /* transform: translate(50%); */
+    width:100%;
+    padding: 0 20px;
     display: flex;
-    flex-direction: column;
+}
+
+#quiz-container{
+    
+   
+    /* width: 400px;
+    background: #d2def2;
+    margin-left: 35%;
+    padding: 40px; */
+    
+    
+}
+
+#mc {
+	display: inline;
+} 
+
+input {
+	margin-bottom: 20px;
+	display: block;
 }
 
 .quizz-heading{
@@ -482,6 +506,12 @@ h2 {
         font-size: 2rem;
     }
 
+    /* #quiz-container{
+        float: left;
+        margin-left: 5%;
+    } */
+
+
 
 }
 
@@ -509,6 +539,12 @@ h2 {
     .hero-button {
         font-size: 1rem;
     }
+
+    /* #quiz-container{
+        float: left;
+        margin-left: 0%;
+        padding: 5px;
+    } */
 
 
 }

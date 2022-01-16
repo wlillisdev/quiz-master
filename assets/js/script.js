@@ -37,7 +37,7 @@ function check() {
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["assets/images/Excellent.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
-    var messages = ["Amazing Great Job!", "Nice Try Good job", "Not Great,Try Again"];
+    var messages = ["Amazing! You Rock", "Good Job,Smart but not a Genius", "Not Great,Try Again"];
     
     //determines 3 diffrent ranges for users score .
     
@@ -50,10 +50,12 @@ function check() {
     if (correct > 0 && correct < 3) {
         range = 1;
     }
-
+    
     if (correct > 2) {
         range = 0;
     }
+     //Top Marks all correct.
+
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
     //after user submits quizz user final score,a message and a pictuer will appear.
