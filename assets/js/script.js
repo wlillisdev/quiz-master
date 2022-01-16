@@ -36,7 +36,7 @@ function check() {
 
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
-    var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
+    var pictures = ["assets/images/Excellent.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
     var messages = ["Amazing Great Job!", "Nice Try Good job", "Not Great,Try Again"];
     
     //determines 3 diffrent ranges for users score .
@@ -59,5 +59,5 @@ function check() {
     //after user submits quizz user final score,a message and a pictuer will appear.
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-    document.getElementById("picture").src = pictures[score];
+    document.getElementById("picture").src = pictures[range];
 }
