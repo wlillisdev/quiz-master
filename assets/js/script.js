@@ -6,7 +6,7 @@
 
 
 function check() {
-
+    // Define Quizz Vairables.
     var question1 = document.quiz.question1.value;
     var question2 = document.quiz.question2.value;
     var question3 = document.quiz.question3.value;
@@ -14,7 +14,8 @@ function check() {
     var question5 = document.quiz.question3.value;
     var correct = 0;
 
-
+    // paramaters of if statment, checking users answers to quesions.
+    // User earns one point for every correct answer.
     if (question1 == "Providence") {
         correct++;
     }
@@ -24,11 +25,12 @@ function check() {
     if (question3 == "Albany") {
         correct++;
     }
-
+    // array of pictuers and comments that will appear .
+    //calcuated in relation to there final score.
     var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
     var messages = ["Great job!", "That's just okay", "You really need to do better"];
     var score;
-
+    //determines 3 diffrent ranges for users score .
     if (correct == 0) {
         score = 2;
     }
@@ -40,9 +42,9 @@ function check() {
     if (correct == 3) {
         score = 0;
     }
-
+    //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
-
+    //after user submits quizz user final score,a message and a pictuer will appear.
     document.getElementById("message").innerHTML = messages[score];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[score];
