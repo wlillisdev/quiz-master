@@ -41,16 +41,19 @@ function check() {
     var messages = ["Great job!", "That's just okay", "You really need to do better"];
     var score;
     //determines 3 diffrent ranges for users score .
-    if (correct == 0) {
-        score = 2;
+    
+    var range;
+    
+    if (correct < 1) {
+        range = 2;
     }
 
     if (correct > 0 && correct < 3) {
-        score = 1;
+        range = 1;
     }
 
-    if (correct == 3) {
-        score = 0;
+    if (correct > 2) {
+        range = 0;
     }
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
