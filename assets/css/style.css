@@ -431,12 +431,16 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:  rgb(39, 48, 73);
 }
 
 #quiz-container{
     
     width: 450px;
-    background: #d2def2;
+    background: whitesmoke;
+    border: white;
+    border-style: ridge;
+    border-width: 7px;
    
 }
 
@@ -448,6 +452,18 @@ input {
 	margin-bottom: 10px;
 	font-size: 15px;
 }
+
+#button{
+    background: rgb(254, 193, 0);
+    font-size: 1rem;
+    padding:10px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: groove;
+    border-width: 3px;
+    
+}
+
 
 .quizz-heading{
 
