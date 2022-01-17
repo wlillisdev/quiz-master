@@ -36,7 +36,7 @@ function check() {
 
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
-    var pictures = ["assets/images/Excellent.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
+    var pictures = ["assets/images/Excellent-1.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
     var messages = ["Amazing! You Rock", "Good Job,Smart but not a Genius", "Not Great,Try Again"];
     
     //determines 3 diffrent ranges for users score .
