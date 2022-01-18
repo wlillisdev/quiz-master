@@ -474,7 +474,7 @@ input {
     transform: translateY(4px);
 }
 
-#button:hover {background-color: white}
+#button:hover {background-color: lightgrey}
 
 
 
@@ -483,6 +483,7 @@ input {
 .quizz-heading {
 
     font-weight: bold;
+    letter-spacing: 2px;
 
 
 }
@@ -492,8 +493,23 @@ input {
     font-family: "montserrat";
     font-weight: bold;
     line-height: 2rem;
+    letter-spacing: .5px;
 }
 
+#number_correct{
+    font-family: "montserrat";
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: blanchedalmond;
+}
+
+#message{
+
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
 
 
 
