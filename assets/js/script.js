@@ -61,4 +61,7 @@ function check() {
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[range];
+    document.getElementById("after_submit_reset").style.visibility = "resert-btn";
+
+    
 }
