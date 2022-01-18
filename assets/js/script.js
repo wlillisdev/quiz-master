@@ -9,8 +9,8 @@ function check() {
     var question1 = document.quiz.question1.value;
     var question2 = document.quiz.question2.value;
     var question3 = document.quiz.question3.value;
-    var question4 = document.quiz.question3.value;
-    var question5 = document.quiz.question3.value;
+    var question4 = document.quiz.question4.value;
+    var question5 = document.quiz.question5.value;
     var correct = 0;
 
     // paramaters of if statment, checking users answers to quesions.
@@ -25,7 +25,12 @@ function check() {
     if (question3 == "Albany") {
         correct++;
     }
-
+    if (question4 == "Hartford") {
+        correct++;
+    }
+    if (question5 == "Albany") {
+        correct++;
+    }
 
     // Sports Quizz Answers
 
