@@ -5,7 +5,7 @@
  */
 
 function check() {
-    // Define Quizz Vairables.
+    // Define Quizz Question Vairables.
     var question1 = document.quiz.question1.value;
     var question2 = document.quiz.question2.value;
     var question3 = document.quiz.question3.value;
@@ -32,17 +32,11 @@ function check() {
         correct++;
     }
 
-    // Sports Quizz Answers
-
-
-
-
-
-
+   
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
-    var messages = ["Amazing! You Rock", "Good Job,Smart but not a Genius", "Not Great,Try Again"];
+    var messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement", "Not Great,Try Again"];
     
     //determines 3 diffrent ranges for users score .
     

@@ -353,7 +353,7 @@ h2 {
 .form-section {
     /* clear: left; */
     position: relative;
-      /* background: url(../images/keys-contact-back.jpg);
+    /* background: url(../images/keys-contact-back.jpg);
     background-size: cover;
     background-position: center; */
     height: 100vh;
@@ -424,18 +424,18 @@ h2 {
 
 /* Quizz Triva Page*/
 
-.wrapper{
-    
+.wrapper {
+
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  rgb(39, 48, 73);
+    background-color: rgb(39, 48, 73);
 }
 
-#quiz-container{
-    
+#quiz-container {
+
     width: 450px;
     background: whitesmoke;
     border: white;
@@ -443,47 +443,58 @@ h2 {
     border-width: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
-   
+
 }
 
 #mc {
-	display: inline;
-} 
-
-input {
-	margin-bottom: 10px;
-	font-size: 15px;
+    display: inline;
 }
 
-#button{
-    background: rgb(254, 193, 0);
+input {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#button {
+    background-color: rgb(254, 193, 0);
     font-size: 1rem;
-    padding:10px;
+    padding: 10px;
     border-radius: 10px;
     border-color: white;
     border-style: groove;
-    border-width: 3px;  
-    margin-top:15px; 
+    border-width: 3px;
+    margin-top: 15px;
     transform: translate(4px);
-    box-shadow: 0 5px rgb(182, 182, 182);
- 
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#button {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#button:hover {background-color: white}
+
+
+
+
+
+.quizz-heading {
+
+    font-weight: bold;
+
+
+}
+
+.questions {
+
+    font-family: "montserrat";
+    font-weight: bold;
+    line-height: 2rem;
 }
 
 
-
-.quizz-heading{
-
-
-}
-
-.questions{
-
-
-}
-
-#mc{
-    
-}
 
 
 
