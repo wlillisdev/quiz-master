@@ -15,51 +15,60 @@ function check() {
 
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
-    // TRIVA Quizz Answers
-    if (question1 == "Providence") {
-        correct++;
-    }
-    if (question2 == "Hartford") {
-        correct++;
-    }
-    if (question3 == "Albany") {
-        correct++;
-    }
-    if (question4 == "Hartford") {
-        correct++;
-    }
-    if (question5 == "Albany") {
-        correct++;
-    }
+    for (i = 1; i <= total; i++) {
 
-   
-    // define varabile and the array of pictuers types and comments that will appear .
-    //calcuated in relation to there final score.
-    var pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
-    var messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement.", "Not Great,Try Again"];
-    
-    //determines 3 diffrent ranges for users score .
-    
-    var range;
-    
-    if (correct < 1) {
-        range = 2;
-    }
+        if (eval('question' + i) == null || eval('question' == '') {
+                alert('You missed question ' + i);
+                return false;
+            }
 
-    if (correct > 0 && correct < 3) {
-        range = 1;
-    }
-    
-    if (correct > 2) {
-        range = 0;
-    }
-     //Top Marks all correct.
+        }
 
-    //after user submits quizz this section will appear.
-    document.getElementById("after_submit").style.visibility = "visible";
-    //after user submits quizz user final score,a message and a pictuer will appear.
-    document.getElementById("message").innerHTML = messages[range];
-    document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-    document.getElementById("picture").src = pictures[range];
-       
-}
+        // TRIVA Quizz Answers
+        if (question1 == "Providence") {
+            correct++;
+        }
+        if (question2 == "Hartford") {
+            correct++;
+        }
+        if (question3 == "Albany") {
+            correct++;
+        }
+        if (question4 == "Hartford") {
+            correct++;
+        }
+        if (question5 == "Albany") {
+            correct++;
+        }
+
+
+        // define varabile and the array of pictuers types and comments that will appear .
+        //calcuated in relation to there final score.
+        var pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
+        var messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement.", "Not Great,Try Again"];
+
+        //determines 3 diffrent ranges for users score .
+
+        var range;
+
+        if (correct < 1) {
+            range = 2;
+        }
+
+        if (correct > 0 && correct < 3) {
+            range = 1;
+        }
+
+        if (correct > 2) {
+            range = 0;
+        }
+        //Top Marks all correct.
+
+        //after user submits quizz this section will appear.
+        document.getElementById("after_submit").style.visibility = "visible";
+        //after user submits quizz user final score,a message and a pictuer will appear.
+        document.getElementById("message").innerHTML = messages[range];
+        document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+        document.getElementById("picture").src = pictures[range];
+
+    }
