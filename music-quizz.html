@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="At Quizz master we provide an online quizzes to test you kowledge in a wide range of topics.We update the site weekly with new quizzes">
+    <meta name="keywords" content="Quiz, Quizzes, Online Quiz, Triva Questions, General Knowledge">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Triva Quiz</title>
+</head>
+
+<body>
+    <!--headcontainer for quizz triva"er-->
+    <header id="site-header">
+        <a href="index.html">
+            <h2 id="logo"><i class="fas fa-question-circle"></i> Quizz Master</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="quizzes.html">Quizzes</a>
+                </li>
+                <li>
+                    <a href="contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--main-body-->
+    <main>
+        <section>
+            <!--Quizz-Triva-->
+            <div class="wrapper">
+
+                <form id="quiz-container" name="quiz">
+                    <h1 class="quizz-heading">Music Quiz</h1>
+
+                    <p class="questions">Q1. What is the speed of sound?</p>
+                    <input type="radio" id="mc" name="question1" value="120 km/h"> 120 km/h<br>
+                    <input type="radio" id="mc" name="question1" value="800 km/h"> 800 km/h<br>
+                    <input type="radio" id="mc" name="question1" value="1,200 km/h"> 1,200 km/h<br>
+
+                    <p class="questions">Q2. Who is known as the Patron Saint of Spain?</p>
+                    <input type="radio" id="mc" name="question2" value="St Benedict"> St Benedict<br>
+                    <input type="radio" id="mc" name="question2" value="St John"> St John<br>
+                    <input type="radio" id="mc" name="question2" value="St James"> St James<br>
+
+                    <p class="questions">Q3. How many time zones are there in total in the world?</p>
+
+                    <input type="radio" id="mc" name="question3" value="16"> 16<br>
+                    <input type="radio" id="mc" name="question3" value="24"> 24<br>
+                    <input type="radio" id="mc" name="question3" value="32"> 32<br>
+
+                    <p class="questions">Q4. What is the rarest type of blood in the human body?</p>
+
+                    <input type="radio" id="mc" name="question4" value="AB negative"> AB negative<br>
+                    <input type="radio" id="mc" name="question4" value="A positive"> A positive<br>
+                    <input type="radio" id="mc" name="question4" value="O positive"> O positive<br>
+
+                    <p class="questions">Q5. Goulash is a type of beef soup in which country?</p>
+
+                    <input type="radio" id="mc" name="question5" value="Hungary"> Hungary<br>
+                    <input type="radio" id="mc" name="question5" value="Czech Republic"> Czech Republic<br>
+                    <input type="radio" id="mc" name="question5" value="Slovakia"> Slovakia<br>
+
+
+                    <input id="button" type="button" value="Check Reuslts" onclick="check();">
+                    <p><input id="resert-btn" type="reset" value="Reset Quizz"></p>
+
+
+
+                    <div id="after_submit">
+                        <p id="number_correct"></p>
+                        <p id="message"></p>
+                        <img id="picture">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--footer-section-->
+    <footer id="footer">
+        <div class="footer-text">
+            Join Us On Socail Media
+        </div>
+        <div class="footer-wrapper">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit-our-facebook-page (opens-in-a-new-tab)"><i
+                        class="fab fa-facebook-square fa-3x"></i></a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="visit-our-instagram-page (opens-in-a-new-tab)"><i
+                        class="fab fa-instagram-square fa-3x"></i></a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit-our-youtube-page (opens-in-a-news-tab)"><i class="fab fa-youtube fa-3x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/2d7cc89c83.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
