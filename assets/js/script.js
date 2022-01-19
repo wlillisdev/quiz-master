@@ -30,19 +30,19 @@ function check() {
     // TRIVA Quizz Answers
 
 
-    if (question1 == "Providence") {
+    if (question1 == "1,200 km/h") {
         correct++;
     }
-    if (question2 == "Hartford") {
+    if (question2 == "St James") {
         correct++;
     }
-    if (question3 == "Albany") {
+    if (question3 == "24") {
         correct++;
     }
-    if (question4 == "Hartford") {
+    if (question4 == "AB negative") {
         correct++;
     }
-    if (question5 == "Albany") {
+    if (question5 == "Hungary") {
         correct++;
     }
 
@@ -56,15 +56,15 @@ function check() {
     
     var range;
     
-    if (correct < 1) {
+    if (correct < 2) {
         range = 2;
     }
 
-    if (correct > 0 && correct < 3) {
+    if (correct > 1 && correct < 5) {
         range = 1;
     }
     
-    if (correct > 2) {
+    if (correct > 4) {
         range = 0;
     }
      //Top Marks all correct.
