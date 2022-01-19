@@ -3,6 +3,7 @@
  * It will check users answers and give a point for correct answer.
  * And the end of quizz it will give the user how many quesion they got right.
  */
+/*jshint esversion: 6 */ 
 
 function check() {
     // Define Quizz Question Vairables.
@@ -14,7 +15,7 @@ function check() {
     var correct = 0;
     var total = 5;
 
-    // Validate form,check if all questions are answered
+    // Validate form,To check if all questions are answered, user cant submit until all questions answered
 
     for(i = 1; i <= total; i++){
 
@@ -76,4 +77,32 @@ function check() {
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[range];
        
+}
+
+
+//Animates the text on the hero on the home page, adapted to site -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
+const text = document.querySelector(".heading-hero");
+const strText = text.textContent;
+const splitText = strText.split("");
+text.textContent = "";
+for(let i = 0; i < splitText.length; i++) {
+  text.innerHTML += "<span>" + splitText[i] + "</span>";
+}
+
+let char = 0;
+let timer = setInterval(onTick, 50);
+
+function onTick(){
+  const span = text.querySelectorAll('span')[char];
+  span.classList.add('fade');
+  char++;
+  if(char === splitText.length){
+    complete();
+    return;
+  }
+}
+
+function complete(){
+  clearInterval(timer);
+  timer = null;
 }

@@ -70,7 +70,6 @@ h2 {
     color: white;
 }
 
-
 .active {
     border-bottom: 3px solid black;
 }
@@ -135,6 +134,16 @@ h2 {
     text-shadow: 4px 4px rgb(39, 48, 73);
 
 }
+
+span {
+    opacity: 0;
+    transition: all 0.4s ease;
+  }
+  
+  span.fade {
+    opacity: 1;
+  }
+
 
 .hero-button {
     font-size: 1.5rem;
