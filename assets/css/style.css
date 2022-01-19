@@ -353,6 +353,11 @@ h2 {
     letter-spacing: 2px;
 }
 
+.quizz-hero-text a {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 .quizz-hero-text:hover {
     background-color: rgb(254, 193, 0);
