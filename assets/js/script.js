@@ -17,6 +17,7 @@ function check() {
 
     // Validate form,To check if all questions are answered, user cant submit until all questions answered
 
+    let i = "question";
     for(i = 1; i <= total; i++){
 
 
@@ -26,6 +27,9 @@ function check() {
             return false;
         }
     }
+    
+    
+
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
     // TRIVA Quizz Answers
@@ -81,7 +85,7 @@ function check() {
 
 
 //Animates the text on the hero on the home page, adapted to site -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
-const text = document.querySelector(".heading-hero");
+const text = document.querySelector(".heading-hero, heading-hero-line");
 const strText = text.textContent;
 const splitText = strText.split("");
 text.textContent = "";

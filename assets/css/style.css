@@ -235,8 +235,21 @@ span {
     letter-spacing: 2px;    
 }
 
+/* Random Fact Generator */
 
-
+.container-generator{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: red;
+    margin: 10px;
+   
+}
 
 
 /* Footer */
