@@ -110,3 +110,34 @@ function complete(){
   clearInterval(timer);
   timer = null;
 }
+
+var facts = [
+
+    'Tic Tac mints are named after the sound their container makes.',
+    'The largest volcano in the solar system is three times taller than Mount Everest.',
+    'The world record for the tallest stack of doughnuts totaled more than 3,000.',
+    'The fastest gust of wind ever recorded on Earth was 253 miles per hour.',
+    'The Canary Islands are named after dogs, not birds.',
+    'Four babies are born every second.',
+    'There are around 4 quadrillion quadrillion bacteria on Earth.',
+    'There are 43 countries that still have a royal family.',
+    'The bumblebee bat is the world’s smallest mammal',
+    'All giant pandas in zoos around the world are on loan from China.',
+    'Bats are the only mammal that can actually fly.',
+
+
+
+
+
+
+
+
+]
+// Create a function to generate quote from array
+function generateQoute(){
+    const random = Number.parseInt(Math.random()*arrayOfQuotes.length + 1);
+    document.querySelector("#generatedQuote")
+    .textContent = `\"${arrayOfQuotes[random].quote}\"`;
+    document.querySelector("#AuthorName")
+    .textContent = `--${arrayOfQuotes[random].author}`;
+}
