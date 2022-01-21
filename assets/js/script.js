@@ -143,6 +143,15 @@ let facts =
     'There are 43 countries that still have a royal family.',
     'All giant pandas in zoos around the world are on loan from China.',
     'Bats are the only mammal that can actually fly.',
+    'Like humans, koalas actually have unique individual fingerprints',
+    'Australia is wider than the moon.',
+    'Humans are the only animals on earth with chins.',
+    'More than 480million people have played Monopoly.',
+    'A bolt of lightning is five times hotter than the sun.',
+    'Dogs hearing is 10 times better than a humans.',
+    'There are more stars in space than there are grains of sand on a beach.',
+    'A shark is the only known fish that can blink with both eyes',
+
 ];
 // Add an event lister with a function when clicked that will generate randon fact.
 btn.addEventListener('click', function(){
