@@ -29,6 +29,16 @@ function check() {
     }
 
 
+    // var elements = document.querySelectorAll("#quiz-container input[type=radio][value='']");
+    // for (var i = 0, element;  element = elements [i++]; {
+        
+    //     if (_element.value === '')
+    //     alert ('You missed question');
+    //     return false;
+           
+    // })
+
+
 
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
@@ -117,7 +127,7 @@ function complete() {
  * 
  */
 
-// Define Varaibles and elements
+// Define Varaibles and elements for fact generator
 let btn = document.getElementById("btn");
 let output = document.getElementById("fact");
 let facts = 
@@ -136,7 +146,7 @@ let facts =
 ];
 // Add an event lister with a function when clicked that will generate randon fact.
 btn.addEventListener('click', function(){
-    var randomFacts = facts[Math.floor(Math.random() * facts.length)]
+    var randomFacts = facts[Math.floor(Math.random() * facts.length)];
     output.innerHTML = randomFacts;
-})
+});
 

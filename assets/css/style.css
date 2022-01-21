@@ -18,7 +18,7 @@ body {
 }
 
 a {
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 
@@ -138,11 +138,11 @@ h2 {
 span {
     opacity: 0;
     transition: all 0.4s ease;
-  }
-  
-  span.fade {
+}
+
+span.fade {
     opacity: 1;
-  }
+}
 
 
 .hero-button {
@@ -197,7 +197,7 @@ span {
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    background-color: rgb(187, 185, 181);   
+    background-color: rgb(187, 185, 181);
 
 }
 
@@ -216,7 +216,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-        
+
 }
 
 #square a {
@@ -231,25 +231,44 @@ span {
 .quizz-icon {
     color: white;
     font-size: 3rem;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
 
 /* Random Fact Generator */
 
-.container-generator{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    padding: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    width: 600px;
-    background-color: red;
-    margin: 10px;
-   
+
+
+#btn {
+    font-size: 1.5rem;
+    background-color: rgb(254, 193, 0);
+    padding: 3px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: .3rem 2.5rem;
+    border: groove;
+    cursor: pointer;
+    color: white;
 }
 
+.box-generator {
+    text-align: center;
+    padding: 15px;
+    font-family: "roboto";
+    line-height: 2rem;
+    background-color: rgb(187, 185, 181);
+    border-style: ridge;
+    font-size: 1.2rem;
+    border-width: 5px;
+}
+
+#fact{
+
+    font-family: "boogaloo", Arial;
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    
+}
 
 /* Footer */
 
@@ -511,9 +530,11 @@ input {
     transform: translateY(4px);
 }
 
-#button:hover {background-color: lightgrey}
+#button:hover {
+    background-color: lightgrey
+}
 
-#resert-btn{
+#resert-btn {
     background-color: rgb(254, 193, 0);
     font-size: 1rem;
     padding: 5px;
@@ -526,7 +547,9 @@ input {
     margin-bottom: 9px;
 }
 
-#resert-btn:hover{background-color: lightgrey}
+#resert-btn:hover {
+    background-color: lightgrey
+}
 
 
 
@@ -547,15 +570,15 @@ input {
     letter-spacing: .5px;
 }
 
-#number_correct{
+#number_correct {
     font-family: "montserrat";
     font-size: 1.5rem;
     font-weight: bold;
     background-color: blanchedalmond;
-    
+
 }
 
-#message{
+#message {
 
     font-size: 1.2rem;
     margin-bottom: 15px;
