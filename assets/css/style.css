@@ -163,7 +163,7 @@ span.fade {
 }
 
 .hero-button:hover {
-    background-color: rgb(182, 182, 182);
+    background-color:rgb(39, 48, 73);
 }
 
 /* About Us Section Homepage */
@@ -248,6 +248,12 @@ span.fade {
     border: groove;
     cursor: pointer;
     color: white;
+}
+
+.heading-gen{
+
+    font-family: "Roboto", Arial;
+    letter-spacing: 2px;    
 }
 
 .box-generator {
