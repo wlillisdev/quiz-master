@@ -96,8 +96,7 @@ function checkQuizz() {
         item.style.backgroundColor = "green";
     };
 
-
-    
+   
 
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
