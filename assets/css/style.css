@@ -414,6 +414,17 @@ span.fade {
 }
 
 
+.header-map{
+    background-color: rgb(254, 193, 0);
+    height:50px;
+}
+
+.map-text{
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 15px;
+}
+
 /* Set the size of the div element that contains the map */
 #map {
     height: 400px;
