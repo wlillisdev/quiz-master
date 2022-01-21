@@ -5,7 +5,7 @@
  */
 /*jshint esversion: 6 */
 
-function check() {
+function checkQuizz() {
     // Define Quizz Question Vairables.
     var question1 = document.quiz.question1.value;
     var question2 = document.quiz.question2.value;
