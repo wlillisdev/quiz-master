@@ -266,8 +266,11 @@ span.fade {
     font-family: "boogaloo", Arial;
     font-size: 2rem;
     padding-bottom: 20px;
-    padding-top: 10px;
-    
+    padding-top: 10px;    
+}
+
+#btn:hover {
+    background-color: rgb(39, 48, 73);
 }
 
 /* Footer */
