@@ -24,20 +24,7 @@ function checkQuizz() {
             return false;
         }
     }
-
-
-
-    // let i = "question";
-    // for (i = 1; i <= total; i++) {
-
-
-    //     if (eval('question' + i) == null || eval('question' + i) == '') {
-
-    //         alert('You missed question ' + i);
-    //         return false;
-    //     }
-    // }
-    
+  
 
    
     // paramaters of if statment, checking users answers to quesions.
@@ -85,7 +72,6 @@ function checkQuizz() {
     }
       
    
-   
 
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
@@ -98,20 +84,12 @@ function checkQuizz() {
     }, 100);
 
 }
-    // let yes = document.getElementById("yes");
-    // let no = document.getElementById("no");
-    
-    // yes.onclick = function () {
-
-    //     document.getElementById("yes-text").style.color = "green";
-    // };
-
-    // no.onclick = function () {
-
-    //     document.getElementById("no-text").style.color = "red";
-    // };
-
-//Animates the text on the hero on the home page, adapted to site -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
+   
+/**
+ * Animate Text on Home Page.
+ * Animates the text on the hero on the home page, adapted to site
+ * -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
+ */ 
 const text = document.querySelector(".heading-hero, heading-hero-line");
 const strText = text.textContent;
 const splitText = strText.split("");
