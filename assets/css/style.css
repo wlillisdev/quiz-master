@@ -532,6 +532,10 @@ span.fade {
 
 }
 
+.answer-text{
+
+    display: inline-block;
+}
 /* #mc {
     display: inline;
 } */

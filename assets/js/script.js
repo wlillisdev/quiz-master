@@ -12,12 +12,12 @@ function checkQuizz() {
     let question3 = document.quiz.question3.value;
     let question4 = document.quiz.question4.value;
     let question5 = document.quiz.question5.value;
-    let questionList = [question1, question2, question3, question4, question5]
+    let questionList = [question1, question2, question3, question4, question5];
     let correct = 0;
     let total = 5;
 
     // Validate form,To check if all questions are answered, user cant submit until all questions answered
-    let i = "question"
+    let i = "question";
     for (i = 0; i < total; i++){
         if (questionList[i] == null || questionList[i] == '') {
             alert('you missed question ' + (i + 1));
@@ -37,19 +37,9 @@ function checkQuizz() {
     //         return false;
     //     }
     // }
+    
 
-
-    // var elements = document.querySelectorAll("#quiz-container input[type=radio][value='']");
-    // for (var i = 0, element;  element = elements [i++]; {
-
-    //     if (_element.value === '')
-    //     alert ('You missed question');
-    //     return false;
-
-    // })
-
-
-
+   
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
     // TRIVA Quizz Answers
@@ -71,13 +61,14 @@ function checkQuizz() {
         correct++;
     }
 
+    
 
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     var pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
     var messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement.", "Not Great,Try Again"];
 
-    //determines 3 diffrent ranges for users score .
+    //determines 3 diffrent ranges for users score that will decide what pictuer to show .
 
     var range;
 
@@ -88,24 +79,12 @@ function checkQuizz() {
     if (correct > 1 && correct < 5) {
         range = 1;
     }
-
+    //Top Marks all correct.
     if (correct > 4) {
         range = 0;
     }
-    //Top Marks all correct.
-
-    var item = document.getElementById("quiz-container");
-    var yes = document.getElementById("yes");
-    var no = document.getElementById("no");
-
-    yes.onclick = function () {
-        item.style.backgroundColor = "red";
-    };
-
-    no.onclick = function () {
-        item.style.backgroundColor = "green";
-    };
-
+      
+   
    
 
     //after user submits quizz this section will appear.
@@ -114,10 +93,23 @@ function checkQuizz() {
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[range];
+    setTimeout(() => {
+    window.scrollTo(0, document.body.scrollHeight);
+    }, 100);
 
 }
+    // let yes = document.getElementById("yes");
+    // let no = document.getElementById("no");
+    
+    // yes.onclick = function () {
 
+    //     document.getElementById("yes-text").style.color = "green";
+    // };
 
+    // no.onclick = function () {
+
+    //     document.getElementById("no-text").style.color = "red";
+    // };
 
 //Animates the text on the hero on the home page, adapted to site -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
 const text = document.querySelector(".heading-hero, heading-hero-line");
@@ -180,6 +172,6 @@ let facts =
     ];
 // Add an event lister with a function when clicked that will generate randon fact.
 btn.addEventListener('click', function () {
-    var randomFacts = facts[Math.floor(Math.random() * facts.length)];
+    let randomFacts = facts[Math.floor(Math.random() * facts.length)];
     output.innerHTML = randomFacts;
 });
