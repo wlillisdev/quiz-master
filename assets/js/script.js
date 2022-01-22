@@ -17,12 +17,12 @@ function checkQuizz() {
     let total = 5;
 
     // Validate form,To check if all questions are answered, user cant submit until all questions answered
-    let i = "question";
-    for (i = 1; i <= total; i++){
-        if (questionList[i] == null || questionList[i] == ''){
-            alert('you missed question ' + (i +1));
-            return flase;
-        }    
+    let i = "question"
+    for (i = 0; i < total; i++){
+        if (questionList[i] == null || questionList[i] == '') {
+            alert('you missed question ' + (i + 1));
+            return false;
+        }
     }
 
 
