@@ -7,26 +7,36 @@
 
 function checkQuizz() {
     // Define Quizz Question Vairables.
-    var question1 = document.quiz.question1.value;
-    var question2 = document.quiz.question2.value;
-    var question3 = document.quiz.question3.value;
-    var question4 = document.quiz.question4.value;
-    var question5 = document.quiz.question5.value;
-    var correct = 0;
-    var total = 5;
+    let question1 = document.quiz.question1.value;
+    let question2 = document.quiz.question2.value;
+    let question3 = document.quiz.question3.value;
+    let question4 = document.quiz.question4.value;
+    let question5 = document.quiz.question5.value;
+    let questionList = [question1, question2, question3, question4, question5]
+    let correct = 0;
+    let total = 5;
 
     // Validate form,To check if all questions are answered, user cant submit until all questions answered
-
     let i = "question";
-    for (i = 1; i <= total; i++) {
-
-
-        if (eval('question' + i) == null || eval('question' + i) == '') {
-
-            alert('You missed question ' + i);
-            return false;
-        }
+    for (i = 1; i <= total; i++){
+        if (questionList[i] == null || questionList[i] == ''){
+            alert('you missed question ' + (i +1));
+            return flase;
+        }    
     }
+
+
+
+    // let i = "question";
+    // for (i = 1; i <= total; i++) {
+
+
+    //     if (eval('question' + i) == null || eval('question' + i) == '') {
+
+    //         alert('You missed question ' + i);
+    //         return false;
+    //     }
+    // }
 
 
     // var elements = document.querySelectorAll("#quiz-container input[type=radio][value='']");
