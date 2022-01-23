@@ -28,19 +28,19 @@
     // User earns one point for every correct answer.
     // TRIVA Quizz Answers
 
-    if (question1 == "1,200 km/h") {
+    if (question1 == "Tuba") {
         correct++;
     }
-    if (question2 == "St James") {
+    if (question2 == "George Gershwin") {
         correct++;
     }
-    if (question3 == "24") {
+    if (question3 == "4") {
         correct++;
     }
-    if (question4 == "AB negative") {
+    if (question4 == "Thriller") {
         correct++;
     }
-    if (question5 == "Hungary") {
+    if (question5 == " Sir Georg Solti") {
         correct++;
     }
   
@@ -73,7 +73,7 @@
     //after user submits Quiz Answers dispplays a pictuer
     document.getElementById("picture").src = pictures[range];
     //after user submits Quiz displays answers to quiz
-    document.getElementById("answers").innerHTML = "Answers<br>Q1-1,200 km/h,<br> Q2-St James<br>Q3-24<br>Q4-AB negative<br>Q5-Hungary";
+    document.getElementById("answers").innerHTML = "Answers<br>Q1-Tuba,<br> Q2-George Gershwin<br>Q3-4<br>Q4-Thriller<br>Q5- Sir Georg Solti";
     setTimeout(() => {
     window.scrollTo(0, document.body.scrollHeight);
     }, 100);
