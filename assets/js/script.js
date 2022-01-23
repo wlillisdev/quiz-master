@@ -52,12 +52,12 @@ function checkQuizz() {
 
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
-    var pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
-    var messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement.", "Not Great,Try Again"];
+    let pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
+    let messages = ["Amazing! You Rock", "Good Job,Smart but room for improvement.", "Not Great,Try Again"];
 
     //determines 3 diffrent ranges for users score that will decide what pictuer to show .
 
-    var range;
+    let range;
 
     if (correct < 2) {
         range = 2;
@@ -70,20 +70,27 @@ function checkQuizz() {
     if (correct > 4) {
         range = 0;
     }
-      
-   
-
+    
+    
+    
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
     //after user submits quizz user final score,a message and a pictuer will appear.
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
     document.getElementById("picture").src = pictures[range];
+    document.getElementById("answers").innerHTML = "Answers- Q1 1,200 km/h, Q2 St James, Q3 24, Q4 AB negative, Q5 Hungary"
     setTimeout(() => {
     window.scrollTo(0, document.body.scrollHeight);
     }, 100);
 
 }
+
+function hide() {
+    document.getElementById("after_submit").style.visibility = "hidden";
+}
+
+
    
 /**
  * Animate Text on Home Page.
