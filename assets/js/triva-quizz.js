@@ -78,3 +78,7 @@ function checkQuizz() {
     window.scrollTo(0, document.body.scrollHeight);
     }, 100);
 }
+
+function hide() {
+    document.getElementById("after_submit").style.visibility = "hidden";
+}
