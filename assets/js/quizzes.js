@@ -25,8 +25,6 @@ function initMap() {
     detailWindow.open(map, marker);
   })
 
-
-  // Add Marker
   function addMarker(property) {
 
     const marker = new google.maps.Marker({
