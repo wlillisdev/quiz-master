@@ -37,7 +37,7 @@
     if (question3 == "Capoeira") {
         correct++;
     }
-    if (question4 == "Australia ") {
+    if (question4 == "Australia") {
         correct++;
     }
     if (question5 == "11") {
