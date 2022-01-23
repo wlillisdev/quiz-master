@@ -3,7 +3,6 @@
  * It will check users answers and give a point for correct answer.
  * And the end of quizz it will give the user how many quesion they got right.
  */
-/*jshint esversion: 6 */
 
 function checkQuizz() {
     // Define Quizz Question Vairables.
@@ -24,13 +23,10 @@ function checkQuizz() {
             return false;
         }
     }
-  
-
    
     // paramaters of if statment, checking users answers to quesions.
     // User earns one point for every correct answer.
     // TRIVA Quizz Answers
-
 
     if (question1 == "1,200 km/h") {
         correct++;
@@ -47,9 +43,7 @@ function checkQuizz() {
     if (question5 == "Hungary") {
         correct++;
     }
-
-    
-
+  
     // define varabile and the array of pictuers types and comments that will appear .
     //calcuated in relation to there final score.
     let pictures = ["assets/images/excellent-3.gif", "assets/images/smart.gif", "assets/images/bad-score.gif"];
@@ -70,25 +64,17 @@ function checkQuizz() {
     if (correct > 4) {
         range = 0;
     }
-    
-    
-    
+   
     //after user submits quizz this section will appear.
     document.getElementById("after_submit").style.visibility = "visible";
     //after user submits quizz user final score,a message and a pictuer will appear.
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+    //after user submits Quiz Answers dispplays a pictuer
     document.getElementById("picture").src = pictures[range];
-    document.getElementById("answers").innerHTML = "Answers- Q1 1,200 km/h, Q2 St James, Q3 24, Q4 AB negative, Q5 Hungary";
+    //after user submits Quiz displays answers to quiz
+    document.getElementById("answers").innerHTML = "Answers<br>Q1-1,200 km/h,<br> Q2-St James<br>Q3-24<br>Q4-AB negative<br>Q5-Hungary";
     setTimeout(() => {
     window.scrollTo(0, document.body.scrollHeight);
     }, 100);
-
 }
-
-function hide() {
-    document.getElementById("after_submit").style.visibility = "hidden";
-}
-
-
-   
