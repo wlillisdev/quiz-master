@@ -527,7 +527,6 @@ span.fade {
     border-width: 7px;
     margin-top: 10px;
     margin-bottom: 10px;
-
 }
 
 .answer-text {
@@ -584,15 +583,9 @@ input {
     background-color: lightgrey
 }
 
-
-
-
 .quizz-heading {
-
     font-weight: bold;
     letter-spacing: 2px;
-
-
 }
 
 .questions {
@@ -608,7 +601,6 @@ input {
     font-size: 1.5rem;
     font-weight: bold;
     background-color: blanchedalmond;
-
 }
 
 #message {
@@ -625,7 +617,6 @@ input {
 }
 
 .wrapper-thank{
-
     margin: 100px 10% 0 0;
     color: white;
     text-align: center;
@@ -713,6 +704,10 @@ input {
         margin-left: 0%;
         padding: 5px;
     } */
-
+    .map-text {
+       font-size: .8rem;
+       margin-top: -10px;
+       
+    }
 
 }
