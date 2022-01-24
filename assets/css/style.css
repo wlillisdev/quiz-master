@@ -618,7 +618,30 @@ input {
 
 }
 
+.thank-you{
+    display: flex;
+    flex-direction: column;
+     /* clear: left; */
+     position: relative;
+     height: 100vh;
+}
 
+
+.wrapper-about{
+
+    margin: 200px 10% 0 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(39, 48, 73);
+    border-radius: 20px;
+    border: groove;
+    border-width: 5px;
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+
+}
 
 
 
