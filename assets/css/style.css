@@ -82,7 +82,6 @@ h2 {
     text-align: center;
     background-color: rgb(254, 193, 0);
     color: black;
-
 }
 
 #menu li {
@@ -106,17 +105,14 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* .hero{
-
-    background-image: linear-gradient rgba (0, 0, 0, 0, .5);
-    
-} */
 #text-hero {
     color: white;
     text-align: center;
     min-width: 50vw;
     z-index: 0;
 }
+
+/* Hero Heading */
 
 .heading-hero {
     font-family: "Libre Franklin", Arial;
@@ -142,6 +138,7 @@ span.fade {
     opacity: 1;
 }
 
+/* Hero Button */
 
 .hero-button {
     font-size: 1.5rem;
@@ -197,8 +194,8 @@ span.fade {
     flex-wrap: wrap;
     width: 100%;
     background-color: rgb(187, 185, 181);
-
 }
+/* styling for circle icon */
 
 #square {
     height: 215px;
@@ -233,8 +230,6 @@ span.fade {
 }
 
 /* Random Fact Generator */
-
-
 
 #btn {
     font-size: 1.5rem;
@@ -316,7 +311,7 @@ span.fade {
 }
 
 /* Quizzes Page*/
-/* Triva */
+/* Triva Hero */
 .quizz-triva-hero {
     height: 150px;
     background-image: url(../images/map-of-world-1.png);
@@ -332,9 +327,9 @@ span.fade {
     border-style: ridge;
     border-color: rgb(187, 185, 181);
     border-width: 5px;
-
-
 }
+
+/* Sports Hero */
 
 .quizz-sport-hero {
     height: 150px;
@@ -351,8 +346,9 @@ span.fade {
     border-style: ridge;
     border-color: rgb(187, 185, 181);
     border-width: 5px;
-
 }
+
+/* Sports Hero */
 
 .quizz-film-hero {
     height: 150px;
@@ -372,6 +368,8 @@ span.fade {
     border-width: 5px;
 }
 
+/* Music Hero */
+
 .quizz-music-hero {
     height: 150px;
     background-image: url(../images/music.png);
@@ -388,6 +386,8 @@ span.fade {
     border-color: rgb(187, 185, 181);
     border-width: 2px;
 }
+
+/* Tect on Hero Images */
 
 .quizz-hero-text {
     background-color: rgb(39, 48, 73);
@@ -411,6 +411,7 @@ span.fade {
     background-color: rgb(254, 193, 0);
 }
 
+/* Map Header Section */
 
 .header-map {
     background-color: rgb(254, 193, 0);
@@ -616,7 +617,7 @@ input {
     height: 100vh;
 }
 
-.wrapper-thank{
+.wrapper-thank {
     margin: 100px 10% 0 0;
     color: white;
     text-align: center;
@@ -630,7 +631,7 @@ input {
     padding: 30px;
 }
 
-    
+
 
 /* Media Query Section */
 
@@ -641,6 +642,10 @@ input {
         
     }
 } */
+
+
+
+
 
 @media (max-width: 800px) {
 
@@ -699,15 +704,9 @@ input {
         font-size: 1rem;
     }
 
-    /* #quiz-container{
-        float: left;
-        margin-left: 0%;
-        padding: 5px;
-    } */
-    .map-text {
-       font-size: .8rem;
-       margin-top: -10px;
-       
-    }
 
+    .map-text {
+        font-size: .8rem;
+        margin-top: -10px;
+    }
 }
