@@ -162,7 +162,7 @@ span.fade {
 }
 
 .hero-button:hover {
-    background-color:rgb(39, 48, 73);
+    background-color: rgb(39, 48, 73);
 }
 
 /* About Us Section Homepage */
@@ -248,10 +248,10 @@ span.fade {
     color: white;
 }
 
-.heading-gen{
+.heading-gen {
 
     font-family: "Roboto", Arial;
-    letter-spacing: 2px;    
+    letter-spacing: 2px;
 }
 
 .box-generator {
@@ -265,12 +265,12 @@ span.fade {
     border-width: 5px;
 }
 
-#fact{
+#fact {
 
     font-family: "boogaloo", Arial;
     font-size: 2rem;
     padding-bottom: 20px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
 #btn:hover {
@@ -412,12 +412,12 @@ span.fade {
 }
 
 
-.header-map{
+.header-map {
     background-color: rgb(254, 193, 0);
-    height:50px;
+    height: 50px;
 }
 
-.map-text{
+.map-text {
     font-size: 1rem;
     text-align: center;
     padding-top: 15px;
@@ -429,7 +429,7 @@ span.fade {
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
-  }
+}
 
 
 /* contact us form*/
@@ -530,10 +530,11 @@ span.fade {
 
 }
 
-.answer-text{
+.answer-text {
 
     display: inline-block;
 }
+
 /* #mc {
     display: inline;
 } */
@@ -618,20 +619,16 @@ input {
 
 }
 
-.thank-you{
-    display: flex;
-    flex-direction: column;
-     /* clear: left; */
-     position: relative;
-     height: 100vh;
+.thank-you {
+    position: relative;
+    height: 100vh;
 }
 
+.wrapper-thank{
 
-.wrapper-about{
-
-    margin: 200px 10% 0 0;
-    text-align: center;
+    margin: 100px 10% 0 0;
     color: white;
+    text-align: center;
     background-color: rgb(39, 48, 73);
     border-radius: 20px;
     border: groove;
@@ -640,13 +637,9 @@ input {
     position: absolute;
     left: 10%;
     padding: 30px;
-
 }
 
-
-
-
-
+    
 
 /* Media Query Section */
 
