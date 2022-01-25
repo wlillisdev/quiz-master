@@ -1,4 +1,4 @@
-// Initialize and add the map
+// Initialize and add the base google map
 function initMap() {
   let options = {
     center: {
@@ -9,87 +9,45 @@ function initMap() {
   }
   // The new map, centered at Dublin
   map = new google.maps.Map(document.getElementById("map"), options)
-
-
-  // //InfoWindow
-  // const detailWindow = new google.maps.InfoWindow({
-  //   content: `<h3>Dublin</h3><p>Did you know that</p>`
-  // });
-
-  // marker.addListener("mouseover", () => {
-  //   detailWindow.open(map, marker);
-  // })
-
-  // function addMarker(property) {
-
-  //   const marker = new google.maps.Marker({
-  //     position: property.location,
-  //     map: map,
-  //     //icon: property.imageIcon
-  //   });
-
-  // const marker = new google.maps.Marker({
-  //   position: {
-  //     lat: 37.9922,
-  //     lng: -1.1307
-  //   },
-  //   map: map,
-  // });
-
-  // //InfoWindow
-  // const detailWindow = new google.maps.InfoWindow({
-  //   content: `<h2>Murcia City</h2>`
-  // });
-  // marker.addListener("mouseover", () => {
-  //   detailWindow.open(map, marker);
-  // })
-
+  
   //Add Markers and content to an Array
 
   let MarkerArray = [
 
-    {
-      location: {
-        lat: 37.9922,
-        lng: -1.1307
-      },
-      content: `<h2>Murcia City</h2><p>did you know that the</p>`
-    }
+    //Dublin fact
+  {location:{lat: 53.3498, lng: -6.2603},content: `<h2>Dublin</h2><p>The famous MGM Lion was born in Dublin Zoo</p>`},
+    //Norway fact
+  {location:{lat: 60.9792, lng: 7.3922},content: `<h2>Lærdal Tunnel</h2><p>At 15 miles (24.5 km) long, the Lærdal Tunnel is the worlds longest</p>`},
+    //Canada fact
+  {location:{lat: 46.8139, lng: -71.2080},content: `<h2>Quebec </h2><p>Small towns all over Quebec are responsible for almost 80% of the worlds maple syrup production</p>`},
 
-    {
-      location: {
-        lat: 39.4699,
-        lng: -0.3763,
-      },
-      content: `<h2>Murcia City</h2><p>did you know that the</p>`
-    }
+    
+
+    
 
 
 
 
 
-
-  
   
   ]
 
-
+   //creat a loop to run through markers
 
   for (let i = 0; i < MarkerArray.length; i++){
     addMarker(MarkerArray[i])
   }
 
-
-
-
+  // Add Marker Function
 
   function addMarker(property) {
-
+    // add location and marker listner if .location property
     const marker = new google.maps.Marker({
       position: property.location,
       map: map,
 
     });
+    // add content and marker listner if .content property
     if (property.content) {
 
       const detailWindow = new google.maps.InfoWindow({
@@ -101,36 +59,5 @@ function initMap() {
       })
     }
   }
-
-
-  // addMarker({
-  //   location: {
-  //     lat: 37.9922,
-  //     lng: -1.1307
-  //   },
-  //   content: `<h2>Murcia City</h2><p>did you know that the</p>`
-  // });
-
-  // addMarker({
-  //   location: {
-  //     lat: 39.4699,
-  //     lng: -0.3763,
-  //   },
-  //   content: `<h2>Murcia City</h2><p>did you know that the</p>`
-  // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
