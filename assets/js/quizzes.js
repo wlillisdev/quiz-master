@@ -1,3 +1,6 @@
+// Tutorials on youtube form Traversy Media & Sam Codes were followed.
+
+
 // Initialize and add the base google map
 function initMap() {
   let options = {
@@ -5,7 +8,7 @@ function initMap() {
       lat: 53.3498,
       lng: -6.2603
     },
-    zoom: 1
+    zoom: 2
   }
   // The new map, centered at Dublin
   map = new google.maps.Map(document.getElementById("map"), options)
@@ -27,7 +30,7 @@ function initMap() {
    //Australia fact
    {location:{lat: -36.6795, lng: 148.1879},content: `<h2>Australia</h2><p>The Australian Alps get more snow than the Swiss Alps</p>`},
    //Russia fact
-   {location:{lat: 61.5240, lng: 105.3188},content: `<h2>Russia</h2><p>20% Of the Earth’s Trees Are in Russia</p>`},  
+   {location:{lat: 61.5240, lng: 105.3188},content: `<h2>Russia</h2><p>20% Of the Earths Trees Are in Russia</p>`},  
   ]
 
    //creat a loop to run through markers
@@ -39,13 +42,13 @@ function initMap() {
   // Add Marker Function
 
   function addMarker(property) {
-    // add location and marker listner if .location property
+    // add location 
     const marker = new google.maps.Marker({
       position: property.location,
       map: map,
 
     });
-    // add content and marker listner if .content property
+    // add content and marker listner to function
     if (property.content) {
 
       const detailWindow = new google.maps.InfoWindow({
