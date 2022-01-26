@@ -44,13 +44,13 @@ The website has been designed to operate on a number of screen and devices.The f
 
 # Features 
 
- [View Homepage Featuers](https://wlillisdev.github.io/hudson-homes/index.html)
+ [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
 
 __Favicon__
- - As the website is based around house building i got a house icon image from [Flaticon](https://www.flaticon.com/free-icons/house)
- - This will help to further enforce the brand image of a house building company to the user.
+ - As the company logo is question mark combined with yellow branding, a quesion mark with a yellow back ground was created [favicon.io](https://favicon.io/)
+ - This favicon is quiet eye cathing and will stand out. 
  
- ![favicon](assets/images/readme-images/favicon.png)
+![favicon](favicon.ico)
 
 __Navigation Bar__
  
