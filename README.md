@@ -2,24 +2,21 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![House Built By Hudson Homes](assets/readme/quizz-master-home.png)
+![Home page Quizz Master](assets/readme/quizz-master-home.png)
 
-This website is designed for Hudson Homes who is a national construction company. They have been in business for over 30 years. Although they specialise in all aspects of construction, they wanted a new website to focus primarily on the house building market and all aspects of it.
+This website is designed for Quizz Master who is an online based quizz company. There aim is to become the markert leader in online quizzes and be a hub for quizz lovers all over the world.
 
 # Aim of Website
 
-The goal of the website is to show case Hodson Homes reputation of excellence, craftmanship and experience in the house building market.
-It will target a wider range of clients as previously they only focused on high end bespoke house builds. 
-The site will also educate customers about the new wide range of services that Hudson Homes offers.
-With the aim of converting site visitors into to potential leads & future customers.
-- ### Design & Build
-- ### New Builds
-- ### Rennovations
-- ### Extensions
-Each service will be outlined in detail to educate and entice the customer to act.
-The theme throughout the website is that Hudson Homes can create and build your dream home. And who doesn’t want a dream home.
-And ultimately bring the customer to engage and contact Hudson Homes via the website for more information. 
-The site will be targeted toward first time home owners & Family’s looking to expand and develop an existing property.
+The goal of the website is to create a truthworthy online resource for users from all over the world to partake in quizzes. Currently there are only 4 main quiz topics.
+I
+- ### Triva
+- ### Sport
+- ### Film
+- ### Music
+Each quizz has multiple choice answers giving the user a choie of 3 answers for each question. With the aim of retaing the user on the website as long as possible.  
+The user is also given the answers after the quizz so they can see where they went wrong and build a level of trust between the user and the site.
+The site will be targeted toward people from there
 
 # User Stories
 - First Time Visitors Aims:
