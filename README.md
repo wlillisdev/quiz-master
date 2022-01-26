@@ -69,20 +69,21 @@ __Landing Page__
  ![Landing](assets/readme/landing-page.png)
 
 
-__What We Do Section__
+__About Us & Quizz Category__
 
-  - What we do section allows the user to quickly evaluate if Hudson Homes has the services they require.
-  - It has a simple design with minimal text about each service, but enough text to allow the user evaluate each service. Each service also has a button to encourage the user to read more about the service. When the button is clicked the user is brought directly to that section on the services page.
-  - Each service has a nice icon that helps the user identify the specific service.
+  - About Us section is a very brief description about Quizz Master to quickly the user more information about the company.
+  - The Quizz Category section, quickly shows the four main quizz categories.Triva,Sport,Film,Music.
+  - Each Category will change color once hovered over, once clicked it will lead the user to the quizz page.
 
- ![What we do Section](assets/images/readme-images/what-we-do-section.png)
+ ![About & Category](assets/readme/about-us.png)
 
-__About Us Section__
+__Fact Generator__
 
-  - This is a quick and brief description about Hudson Homes. To allow the user to find out some background information about the company.
-  - It outlines the  main qualities of why Hudson Homes would be an excellent partner for a new user looking to build a new home.
+  - This is a fun app that will create a new random intresting fact everytime the user clicks on the button.
+  - This is aimed at grabbing a new users attention and helping to ensourage a user to click on a quizz after playing.
+  - The button has a hover effect and will change color once clicked.
 
- ![About Us](assets/images/readme-images/about-us-section.png)
+ ![Fact Generator](assets/readme/fact-generator.png)
 
 __Our Crediantials Section__
 
