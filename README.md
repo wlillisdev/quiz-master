@@ -85,20 +85,6 @@ __Fact Generator__
 
  ![Fact Generator](assets/readme/fact-generator.png)
 
-__Our Crediantials Section__
-
-  - This is the next step on the user's journey as they scroll down the homepage, The about us section highlights why you should choose Hudson Homes as a partner but this section reinforces this point with industry credentials.
-  - This section outlines the industry recognised organisations that Hudson Homes are registered members of.
-  - To a new user visiting the site and having little knowledge of the company this is a big thumbs up to show them that Hudson Homes is a reputable builder.
-
- ![Our Crediantials](assets/images/crediantials.png)
-
-
-__Recent Projects__
-  - A short video was added to show case a recent project. It will show the users a finished house build by Hudson Homes. And the high quality and perfect finish that they can expect on their project.
-  - It is placed just above the footer, where it prompts the user to follow one of the socail channels to view more projects.
-  ![Video](assets/images/readme-images/recent-project-video.png)
-
 
 __Footer__
 
@@ -106,7 +92,7 @@ __Footer__
   - It contains 3 social media platforms as requested by Hudson Homes they will also open in a new window to allow easy navigation for the user.
   - The main aim of the footer is to increase engagement with visitors and get them to view new projects that are currently been built and showcase previous projects.With the goal of building confidence with new customers & getting them to subscribe to the various social channels. This is done with a simple text in the footer, Follow Our Recent Projects On. 
 
- ![Footer Bar](assets/images/readme-images/footer.png)
+ ![Footer Bar](assets/readme/footer.png)
 
 - __Hoover__
 
