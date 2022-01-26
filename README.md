@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-[Quizz Master](assets/readme/quizz-master-home.png)
+![House Built By Hudson Homes](assets/readme/quizz-master-home.png)
 
 This website is designed for Hudson Homes who is a national construction company. They have been in business for over 30 years. Although they specialise in all aspects of construction, they wanted a new website to focus primarily on the house building market and all aspects of it.
 

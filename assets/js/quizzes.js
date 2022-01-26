@@ -55,7 +55,7 @@ function initMap() {
         content: property.content
       });
 
-      marker.addListener("mouseover", () => {
+      marker.addListener("onClick", () => {
         detailWindow.open(map, marker);
       })
     }
