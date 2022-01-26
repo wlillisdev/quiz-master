@@ -8,8 +8,8 @@ This website is designed for Quizz Master who is an online based quizz company. 
 
 # Aim of Website
 
-The goal of the website is to create a truthworthy online resource for users from all over the world to play quizzes & lear intresting facts. Currently there are only 4 main quiz topics.
-I
+The goal of the website is to create a truthworthy online resource for users from all over the world to play quizzes & learn intresting facts. Currently there are only 4 main quiz topics.
+
 - ### Triva
 - ### Sport
 - ### Film
@@ -47,26 +47,26 @@ The website has been designed to operate on a number of screen and devices.The f
  [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
 
 __Favicon__
- - As the company logo is question mark combined with yellow branding, a quesion mark with a yellow back ground was created [favicon.io](https://favicon.io/)
+ - As the company logo is a question mark combined with yellow branding, a quesion mark with a yellow back ground was created [favicon.io](https://favicon.io/)
  - This favicon is quiet eye cathing and will stand out. 
  
 ![favicon](favicon.ico)
 
 __Navigation Bar__
  
-  - The Navigation bar is located at the top of all three Pages. It is simple but clean design. It includes the logo, Home page, Service and Contact Us page.
+  - The Navigation bar is located at the top of all three Pages. It is simple but clean design. It includes the logo, Home page, Quizzes and Contact Us page.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements also change colour when hovered over and also has an active line under each link when clicked which adds to the user experience.  
 
- ![Navigation Bar](assets/images/header.jpg)
+ ![Navigation Bar](assets/readme/header.png)
 
 __Landing Page__
 
-  - The landing page contains an eye-catching background image of a beautiful modern built house constructed by Hudson Homes. It immediately catches the eye and infers the aspiration of what a customer’s dream house could look like if it was built by Hudson Homes.
-  - The text box further instils this with the words - you Dream it we design and build it. The customer knows instantly what Hudson Homes can do for them.
-  - It also has a call to action with a button encouraging customers to get a free quote.
+  - The landing page contains an eye-catching background image of a shelves of books that infers the theme of knowledge and quizzes.
+  - The text are you ready for  is annimated on page load and catches the users attention staight away, it is bold and white and contrasts well with background image.
+  - It also has a call to action with a button i want to play,that jumps to the category section of the homepage.
 
- ![Landing](assets/images/readme-images/landing-page.png)
+ ![Landing](assets/readme/landing-page.png)
 
 
 __What We Do Section__
