@@ -48,7 +48,7 @@ function initMap() {
       map: map,
 
     });
-    // add content and marker listner to function
+    // add content and  listner to function
     if (property.content) {
 
       const detailWindow = new google.maps.InfoWindow({
