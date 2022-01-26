@@ -21,7 +21,6 @@ a {
     text-decoration: none;
 }
 
-
 /* Headings & Logo */
 h1,
 h2 {
@@ -62,6 +61,8 @@ h2 {
     color: inherit;
 }
 
+/* Logo */
+
 #logo a {
     text-decoration: none;
 }
@@ -94,7 +95,7 @@ h2 {
 
 .hero {
     height: 500px;
-    background-image: url(../images/hero-books.jpg);
+    background-image: url(../images/books-tiny.jpg);
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -119,14 +120,12 @@ h2 {
     font-size: 3rem;
     text-transform: capitalize;
     text-shadow: 2px 2px rgb(39, 48, 73);
-
 }
 
 .heading-hero-line {
     font-family: "Libre Franklin", Arial;
     font-size: 10rem;
     text-shadow: 4px 4px rgb(39, 48, 73);
-
 }
 
 span {
@@ -195,6 +194,7 @@ span.fade {
     width: 100%;
     background-color: rgb(187, 185, 181);
 }
+
 /* styling for circle icon */
 
 #square {
@@ -211,7 +211,6 @@ span.fade {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #square a {
@@ -311,7 +310,9 @@ span.fade {
 }
 
 /* Quizzes Page*/
+
 /* Triva Hero */
+
 .quizz-triva-hero {
     height: 150px;
     background-image: url(../images/map-of-world-1.png);
@@ -348,7 +349,7 @@ span.fade {
     border-width: 5px;
 }
 
-/* Sports Hero */
+/* Film Hero */
 
 .quizz-film-hero {
     height: 150px;
@@ -387,7 +388,7 @@ span.fade {
     border-width: 2px;
 }
 
-/* Tect on Hero Images */
+/* Text on Hero Images */
 
 .quizz-hero-text {
     background-color: rgb(39, 48, 73);
@@ -405,7 +406,6 @@ span.fade {
     text-decoration: none;
     color: inherit;
 }
-
 
 .quizz-hero-text:hover {
     background-color: rgb(254, 193, 0);
@@ -425,22 +425,18 @@ span.fade {
 }
 
 /* Set the size of the div element that contains the map */
+
 #map {
     height: 400px;
-    /* The height is 400 pixels */
     width: 100%;
-    /* The width is the width of the web page */
 }
 
+/* contact us Page*/
 
 /* contact us form*/
 
 .form-section {
-    /* clear: left; */
     position: relative;
-    /* background: url(../images/keys-contact-back.jpg);
-    background-size: cover;
-    background-position: center; */
     height: 100vh;
 }
 
@@ -464,7 +460,6 @@ span.fade {
 .signup-form>h2 {
     color: #CCCCCC;
     margin-bottom: 20px;
-
 }
 
 .text-input {
@@ -534,10 +529,6 @@ span.fade {
 
     display: inline-block;
 }
-
-/* #mc {
-    display: inline;
-} */
 
 input {
     margin-bottom: 10px;
@@ -609,7 +600,6 @@ input {
     font-size: 1.2rem;
     margin-bottom: 15px;
     margin-top: 10px;
-
 }
 
 .thank-you {
@@ -631,21 +621,9 @@ input {
     padding: 30px;
 }
 
-
-
 /* Media Query Section */
 
-/* 
-@media (max-width: 900px) {
-    .quizz-wrapper {
-        flex: 2
-        
-    }
-} */
-
-
-
-
+/* Media Query max width 800px */
 
 @media (max-width: 800px) {
 
@@ -653,7 +631,6 @@ input {
     /* Using flexbox column for responsiveness */
 
     #site-header {
-
         flex-direction: column;
         padding: 5px 0 5px;
     }
@@ -669,14 +646,6 @@ input {
     .heading-hero {
         font-size: 2rem;
     }
-
-    /* #quiz-container{
-        float: left;
-        margin-left: 5%;
-    } */
-
-
-
 }
 
 /* @media (max-width: 600px) {
