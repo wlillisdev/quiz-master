@@ -55,7 +55,7 @@ function initMap() {
         content: property.content
       });
 
-      marker.addListener("onClick", () => {
+      marker.addListener("click", () => {
         detailWindow.open(map, marker);
       })
     }
