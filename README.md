@@ -8,25 +8,26 @@ This website is designed for Quizz Master who is an online based quizz company. 
 
 # Aim of Website
 
-The goal of the website is to create a truthworthy online resource for users from all over the world to partake in quizzes. Currently there are only 4 main quiz topics.
+The goal of the website is to create a truthworthy online resource for users from all over the world to play quizzes & lear intresting facts. Currently there are only 4 main quiz topics.
 I
 - ### Triva
 - ### Sport
 - ### Film
 - ### Music
-Each quizz has multiple choice answers giving the user a choie of 3 answers for each question. With the aim of retaing the user on the website as long as possible.  
+Each quizz has multiple choice answers giving the user a choie of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
 The user is also given the answers after the quizz so they can see where they went wrong and build a level of trust between the user and the site.
-The site will be targeted toward people from there
+The site will be targeted toward a broad demographic intially Adult but with the aim to also build a childrens quizzes and more interactivity.
+
 
 # User Stories
 - First Time Visitors Aims:
   - As a first-time visitor, I want to quickly and easily understand what this website is about and what it can do for me.
-  - As a first-time visitor, I want to quickly learn about the services on offer.
+  - As a first-time visitor, I want to quickly learn what type of quizzes are on offer.
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
 
 - Returning Visitors Aims:
-  - As a returning visitor, I would like to learn more about projects the company has built that may be similar to my project.
-  - As a returning visitor, I want to learn about this company credentials & experience.
+  - As a returning visitor, I would like to learn about diffrent quizz categories and try more quizzes.
+  - As a returning visitor, I want to interact with fact generator and intresting facts map of the world. 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
 # Responsive 
