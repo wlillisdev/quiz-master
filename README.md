@@ -107,20 +107,43 @@ __Quizzes Page__
   - When the user clicks on the marker a info window appears and the users can view an intresting fact from this location.
   - This is aimed at improveing the users engagemnet on the site.As all quizz lovers enjoys intresting facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
   
-
+  - Quizzes Page
  ![Quizz Featuer](assets/readme/quizzes-featuers.png)
 
+ - Quizzes Page Google Map Featuer
  ![Map Quizzes Featuer](assets/readme/map-quizzes.png)
 
-  [View Quizz Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
+  [View Quizzes Page Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
+
+
+__Quiz Page__
+
+  -  The quizz page is the same format on all quizzes, 5 questions with a multiple choice of 3 answers per question.The user answer is easily and quickly recorder in a radio input.
+
+  - Quiz Page
+ ![Quizz Featuer](assets/readme/quizz-page.png)
+
+  - The user has to answer all questions for the quizz to be sucessfull. If they dont they will be given an alert saying you have missed a question.
+
+  - Alert warning
+ ![Quizz Featuer](assets/readme/alert-quizz.png)
+
+  - At the end of the quiz the user presses get reaults button, And a message tells them how many questions they have got correct.
+  - The results is also accompanied with a GIF image, there a 3 diffrent images that relate to diffrent score ranges.
+  - GIF for All Correct
+  ![Quizz Results](assets/readme/quizz-full-marks.png)
+  - The answers to the questions are also revaled once the user has submitted at the end of the quiz.  
+  
+  [View Quizzes Page Featuers](https://wlillisdev.github.io/quiz-master/quizz-triva.html)
+
 
 
 __Contact Us Page__
 
- [View Contact Us Featuers](https://wlillisdev.github.io/hudson-homes/contact-us.html)
+ [View Contact Us Featuers](https://wlillisdev.github.io/quiz-master/contact-us.html)
 
-  - The aim of the page is to convert a potential user into a lead. It has a simple but elegant contact us form layout. That captures enough information so Hudson Homes can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
-  - It also has the aspirational theme of Build your dream incorporated into it. The header image has an elegant country home, the background image is a set of keys in a new door and the form has a call to action of "start your dream home today". 
+  - It has a simple but elegant contact us form layout. That captures enough information so Quiz Maaster can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
+  - It also has a video background of question marks. It continues the animation theme from the home page.
  
  ![Contact Us Form](assets/images/readme-images/contact-us-new.png)
 
