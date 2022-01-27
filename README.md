@@ -97,22 +97,20 @@ __Footer__
 - __Hoover__
 
   - Each clickable element on the website changes color when hovered over with a mouse. This is to encourage users to click on buttons and links and increase engagement and user experience.
-  - Buttons on the website when clicked on by the user look like they are been pushed.I added this to improved the UX of the website.
-  - My mentor suggested to put cursor pointer on all buttons which was also implemented.
-
-
-__Services Page__
-
-  -  This page clearly lays out in more detail what construction services Hudson Homes offers. It is the next step on the users journery. 
-  - Each specific service incorporated an eye catching background pictuer that is directly related to the service.
-  - The same icons and similar text box style already used on the homepage is used on each service image to continue the design and flow of the site and aid in the user experience.
-  - Each service has a detailed despcription of each service and what exactly Hudson Homes can offer a potential customer.
-  - At the end of the text thier is a button read more, this button will encourage the user to make a furter action.On clicking this button it will lead the user to the contact us page & the contact us form. To continue the logiacal flow through the website.
   
 
- ![Services Section](assets/images/readme-images/services-page-new.png)
+__Quizzes Page__
 
-  [View Services Featuers](https://wlillisdev.github.io/hudson-homes/services.html)
+  -  This page clearly lays out the main quizz topics.The user can easily navigate to the diffrent quizzes.
+  - Each specific quiz category has an eye catching image relation to the diffrent topics.Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
+  - At the bottom of the page there is an interactive google map. The map has various markers at locations all around the world.
+  - When the user clicks on the marker a info window appears and the users can view an intresting fact from this location.
+  - This is aimed at improveing the users engagemnet on the site.As all quizz lovers enjoys intresting facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
+  
+
+ ![Quizz Featuers](assets/readme/quizzes-featuers.png)
+
+  [View Quizz Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
 
 
 __Contact Us Page__
