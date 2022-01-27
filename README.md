@@ -134,7 +134,7 @@ __Quiz Page__
   ![Quizz Results](assets/readme/quizz-full-marks.png)
   - The answers to the questions are also revaled once the user has submitted at the end of the quiz.  
   
-  [View Quizzes Page Featuers](https://wlillisdev.github.io/quiz-master/quizz-triva.html)
+  [View Quiz Page Featuers](https://wlillisdev.github.io/quiz-master/quizz-triva.html)
 
 
 
@@ -143,17 +143,17 @@ __Contact Us Page__
  [View Contact Us Featuers](https://wlillisdev.github.io/quiz-master/contact-us.html)
 
   - It has a simple but elegant contact us form layout. That captures enough information so Quiz Maaster can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
-  - It also has a video background of question marks. It continues the animation theme from the home page.
+  - It also has a video background of question marks. It continues the animation theme from the home page it is fun and intresting.
  
- ![Contact Us Form](assets/images/readme-images/contact-us-new.png)
+ ![Contact Us Form](assets/readme/contact-us.png)
 
 __Thank You Page__
   - When the user successfully submits the contact us form, they will be brought to a thank you page. Which will also encourage the user to check out our social channels.
-  ![Thank You Page](assets/images/readme-images/thank-you-new.png)
+  ![Thank You Page](assets/readme/thank-you.png)
 
 # Design
  - Theme
-   - The Theme of the website is build your dream home.As a first time buyer or an existing home owner your aspiration is to build and live in a dream home you created. 
+   - The Theme of the website was to build a bright and engaging Quizz website with a blend of both quizzes and fun. 
    - Fonts were imported from google fonts, Sans Pro and Open Sans were picked as they were crisp and elegant and complimented each other and the theme of the site.
 
  - Color Palette
@@ -162,7 +162,7 @@ __Thank You Page__
  ![Color Palette](assets/images/colors-hudson.png)
 
 - Imagery
-   - The images that were selected for the website were eyecathing, elegant, OF modern designed and expertly built houses. They look like show houses and help support the theme of a user owning and designing their own dream home.
+   - The images that were selected for the website were bold and bright images related to the Quiz Genre.
 
 - Wireframes
    - To create the initial layout and wireframe i used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
@@ -172,18 +172,19 @@ __Thank You Page__
    
 
 # Future Development
-- Burger Menu
-  - I will add a burger menu for navigation for smaller screen sizes at a later date. i belive this will make the header neater and more user friendly
 
-- Payment Portal
-  - Add a payment portal to the website to allow customers pay and make stage payments online. This will improve workflow of the project and cashflow for Hudson Homes.
+- More Quiz Topics
+  - As the site growns so will the resource of quizz topics and questions.
         
 
-- Portfolio 
-  - I would like to add a portfolio page outlining all past projects of note from Hudson Homes this will be  accompanied with a video and a Testimional from the client.
+- Children Quizz 
+  - Children Quiz section will be added at a later date, to broden the reach of the website.
 
-- Client Login
-  - Have a login section on the site so the customer can look at changes to drawings, approve changes, make changes, get live updates on the project from the project manager and to upload tender documents.
+- Subscription Section
+  - The site will initally have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
+
+- Other Games
+  - As the site evloves so will the amount of games on the site, initally it is just quizzes, but it later the aim is to have Crosswords, Word Search, Cryptograms.  
 
 # Testing
 
