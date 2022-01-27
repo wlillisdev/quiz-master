@@ -108,7 +108,9 @@ __Quizzes Page__
   - This is aimed at improveing the users engagemnet on the site.As all quizz lovers enjoys intresting facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
   
 
- ![Quizz Featuers](assets/readme/quizzes-featuers.png)
+ ![Quizz Featuer](assets/readme/quizzes-featuers.png)
+
+ ![Map Quizzes Featuer](assets/readme/map-quizzes.png)
 
   [View Quizz Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
 
