@@ -178,7 +178,7 @@ __Thank You Page__
         
 
 - Children Quizz 
-  - Children Quiz section will be added at a later date, to broden the reach of the website.
+  - Children Quizzes section will be added at a later date, to broaden the reach of the website.
 
 - Subscription Section
   - The site will initally have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
@@ -286,6 +286,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
   - [HTML5](https://en.wikipedia.org/wiki/HTML5)
   - [CSS](https://en.wikipedia.org/wiki/CSS)
+  - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 - ## Content
    - The code for the contact us form was taken from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/) and modified.
