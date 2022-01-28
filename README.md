@@ -255,17 +255,17 @@ __Thank You Page__
 The site was created using Visual Studio Code and GitHub, and deployed to GitHub pages for testing using the below process:
 
 
- - Clicked on my respository for [wlillisdev/hudson-homes](https://github.com/wlillisdev/hudson-homes).
+ - Clicked on my respository for [wlillisdev/quizz-master](https://github.com/wlillisdev/quiz-master).
  - Clicked settings tab and navigated down to "pages"
  - Selected "Main" in branch drop down box.
- - Clicked "save" which produced the live link which can be viewed [here](https://wlillisdev.github.io/hudson-homes/index.html).. 
+ - Clicked "save" which produced the live link which can be viewed [here](https://wlillisdev.github.io/quizz-master/index.html).. 
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
 
 ## Cloning
 
-1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/wlillisdev/hudson-homes)
+1. On [GitHub](www.github.com), navigate to the main page of the repository.  [Click Here for Reposititory Link](https://github.com/wlillisdev/quiz-master)
 
 2. Above the list of files, click Code.
 
@@ -290,11 +290,16 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 - ## Content
    - The code for the contact us form was taken from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/) and modified.
-   - The header layout was inspired from the love running tutorial from [Code Institute](https://codeinstitute.net/ie/).
    - The icons used throughout the site were from [Font Awesome](https://fontawesome.com/)
-   - Variour Youtube tutorial were used to help understand felexbox and css grid.
-    - [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE)
-    - [css Grid](https://www.youtube.com/watch?v=moBhzSC455o)
+   - Variour Youtube tutorial were used to help understand flexbox.
+   - [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE)
+   - Animated Text on home page from [bulldogpatch](https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg)
+   - Tutorials for Randon Fact generator from freecode camp ,learn web-dev & dev.to were used to inspire the generator.
+   - YouTube videos from Eduonix Learning Solutions,Kevin Briggs & Web Dev Simplified were used as a base for the quizz.
+   - Youtube videos about google maps api with javascript were followed from Traversy Media & Sam Codes.
+
+
+    
 
 -  ## Images
    - All images were taken from [Pexels](https://en.wikipedia.org/wiki/CSS)
