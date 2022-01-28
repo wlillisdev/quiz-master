@@ -167,8 +167,9 @@ __Thank You Page__
 - Wireframes
    - To create the initial layout and wireframe i used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
 
-  - [Homepage Wireframe Concept](assets/images/readme-images/wireframe-homepage.png)
-  - [Servcie Page Wireframe Concept](assets/images/readme-images/service-wireframe.png)
+  - [Homepage Wireframe Concept](assets/readme/home-wireframe.png)
+  - [Quizzes Page Wireframe Concept](assets/readme/home-wireframe.png)
+  - [Quizz Page Wireframe Concept](assets/readme/home-wireframe.png)
    
 
 # Future Development
@@ -184,7 +185,7 @@ __Thank You Page__
   - The site will initally have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
 
 - Other Games
-  - As the site evloves so will the amount of games on the site, initally it is just quizzes, but it later the aim is to have Crosswords, Word Search, Cryptograms.  
+  - As the site evloves so will the amount of games on the site, initally it is just quizzes, but it eventually have Crosswords, Word Search & Cryptograms.  
 
 # Testing
 
@@ -201,7 +202,7 @@ __Thank You Page__
 
  ### All Pages are now error free see links below:
 
- ![Servcie Page Wireframe Concept](assets/images/readme-images/hompage-pass.png)
+ ![Home Page](assets/images/readme-images/hompage-pass.png)
    - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Findex.html)
    - [Services Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Fservices.html)
    - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Fcontact-us.html)
@@ -245,7 +246,7 @@ __Thank You Page__
   - On low quailty smart phones with with pixle width less than 300px the hompe page hero text banner did not look great, so i decided to add a media query and remove it  as i felt it was affecting user experience.
 
   # Unfixed Bugs
-  - Apart from removeing the hero banner text from the hompage for smart phones with screen sizes below 300px i am unaware of any other bugs at this time.
+  - I am aware there is a console.log Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.From what i have researched this is a issue between Github and Google and has no effect on the sites performance.
   - I am aware the website has a lot of large rich images and although images were cropped and compressed it could lead to reduced speed until cached. I have experimented with next gen image formats but curently they lack browser compatability so i just went with png compressed and cropped format for this site.
 
 
@@ -258,7 +259,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
  - Clicked on my respository for [wlillisdev/quizz-master](https://github.com/wlillisdev/quiz-master).
  - Clicked settings tab and navigated down to "pages"
  - Selected "Main" in branch drop down box.
- - Clicked "save" which produced the live link which can be viewed [here](https://wlillisdev.github.io/quizz-master/index.html).. 
+ - Clicked "save" which produced the live link which can be viewed [here](https://wlillisdev.github.io/quiz-master/).. 
 
  ## Version Control
   - Git was used as the version control software. Commands such as git add ., git status, git commit and git push were used to add, save, stage and push the code to the GitHub repository.
@@ -302,7 +303,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
     
 
 -  ## Images
-   - All images were taken from [Pexels](https://en.wikipedia.org/wiki/CSS)
+   - All images were taken from [Pexels](https://www.pexels.com/)
 
   
  -  ## Resources
@@ -318,13 +319,13 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 -  ## Acknowledgements
  - Special thanks to my mentor Miguel Martinez
- for their help and guidance in the development of my first website. Special thanks to my tutor Kasia and our regular class meeting’s and members of the awesome slack community
+ for their help and guidance in the development of my project. Special thanks to my tutor Kasia and our regular class meeting’s and members of the awesome slack community
 
 
    # Conclusion
-    - I would put more emphasis on a mobile first design when it came to building out the site.
+    - I would like to experiment more with java script but as i am only getting to grips with the language i kept concept simple.
     - If I was to build this site again, I would spend more time on the wireframes and know exactly how to structure each section and element before i start.
-    - Due to time constraints, I did not have time to experiment a lot with flex or CSS grid, I think I could have got a better services page layout with CSS grid.
+    - If i had time i would like to add a timer function to the quizz.    
     - I would also learn to make more commits during the project built.
 
 
