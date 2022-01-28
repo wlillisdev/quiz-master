@@ -8,14 +8,13 @@
     <meta name="description"
         content="Test your general knowledge with our tricky Music questions.From Quiz master">
     <meta name="keywords" content="MusicQuiz, Quizzes, Online Quiz, Triva Questions, General Knowledge">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="assets/css/style.css">
-
-
     <title>Music Quiz</title>
 </head>
 
 <body>
-    <!--headcontainer for quizz triva"er-->
+    <!--head for Music Quiz-->
     <header id="site-header">
         <a href="index.html">
             <h2 id="logo"><i class="fas fa-question-circle"></i> Quizz Master</h2>
@@ -37,13 +36,13 @@
     <!--main-body-->
     <main>
         <section>
-            <!--Quizz-Triva-->
+            <!--Music-Quizz-->
             <div class="wrapper">
 
                 <form id="quiz-container" name="quiz">
                     <h1 class="quizz-heading">Music Quiz</h1>
 
-
+                    <!--Music-Quizz Questions-->
                     <p class="questions">Q1. In an Orchestra, which is the largest brass section instrument?</p>
 
                     <input type="radio" id="mc" name="question1" value="Trumpet"> Trumpet<br>
@@ -76,11 +75,11 @@
 
                     <input id="button" type="button" value="Check Reuslts" onclick="checkQuizz();">
                     <p><input id="resert-btn" onclick="hide()" type="reset" value="Reset Quizz"></p>
-
+                    <!--Results-section-->
                     <div id="after_submit">
                         <p id="number_correct"></p>
                         <p id="message"></p>
-                        <img id="picture">
+                        <img id="picture" alt="Animated Gif of reults">
                         <br>
                         <br>
                         <p id="answers"></p>                                                                    
