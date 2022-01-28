@@ -157,9 +157,9 @@ __Thank You Page__
    - Fonts were imported from google fonts, Sans Pro and Open Sans were picked as they were crisp and elegant and complimented each other and the theme of the site.
 
  - Color Palette
-   - The color palette is made up of three main colors which creates a good contrast and helps support the overall theme by creating a sleek lean and modern website.
+   - The color palette is made up of four main colors which creates a good contrast and helps support the overall theme.
 
- ![Color Palette](assets/images/colors-hudson.png)
+ ![Color Palette](assets/readme/color-pallet.png)
 
 - Imagery
    - The images that were selected for the website were bold and bright images related to the Quiz Genre.
