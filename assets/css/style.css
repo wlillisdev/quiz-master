@@ -111,6 +111,7 @@ h2 {
     text-align: center;
     min-width: 50vw;
     z-index: 0;
+    margin-top: -5rem;
 }
 
 /* Hero Heading */
