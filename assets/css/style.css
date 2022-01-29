@@ -198,7 +198,7 @@ span.fade {
 
 /* styling for circle icon */
 
-#square {
+.square {
     height: 215px;
     width: 215px;
     border-radius: 50%;
