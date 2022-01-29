@@ -679,4 +679,9 @@ input {
         font-size: .8rem;
         margin-top: -10px;
     }
+
+    .quizz-hero-text {
+        font-size: 1.5rem;
+    }
+  
 }
