@@ -154,7 +154,7 @@ __Thank You Page__
 # Design
  - Theme
    - The Theme of the website was to build a bright and engaging Quizz website with a blend of both quizzes and fun. 
-   - Fonts were imported from google fonts, Sans Pro and Open Sans were picked as they were crisp and elegant and complimented each other and the theme of the site.
+   - Fonts were imported from google fonts, Boogaloo for logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text. were picked as they were crisp and complimented each other and the theme of the site.
 
  - Color Palette
    - The color palette is made up of four main colors which creates a good contrast and helps support the overall theme.
@@ -168,8 +168,8 @@ __Thank You Page__
    - To create the initial layout and wireframe i used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
 
   - [Homepage Wireframe Concept](assets/readme/home-wireframe.png)
-  - [Quizzes Page Wireframe Concept](assets/readme/home-wireframe.png)
-  - [Quizz Page Wireframe Concept](assets/readme/home-wireframe.png)
+  - [Quizzes Page Wireframe Concept](assets/readme/quizzes-wireframe-new.png)
+  - [Quizz Page Wireframe Concept](assets/readme/quizz-wireframe.png)
    
 
 # Future Development
