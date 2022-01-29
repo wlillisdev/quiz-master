@@ -167,7 +167,7 @@ __Thank You Page__
 - Wireframes
    - To create the initial layout and wireframe i used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
 
-  - [Homepage Wireframe Concept](assets/readme/home-wireframe.png)
+  - ![Homepage Wireframe Concept](assets/readme/home-wireframe.png)
   - [Quizzes Page Wireframe Concept](assets/readme/quizzes-wireframe-new.png)
   - [Quizz Page Wireframe Concept](assets/readme/quizz-wireframe.png)
    
