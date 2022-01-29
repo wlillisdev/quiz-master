@@ -202,21 +202,25 @@ __Thank You Page__
 
  ### All Pages are now error free see links below:
 
- ![Home Page](assets/images/readme-images/hompage-pass.png)
-   - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Findex.html)
-   - [Services Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Fservices.html)
-   - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Fcontact-us.html)
-   - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Fthank-you.html%3Ffirst_name%3Drvvr%26last_name%3Drvrv%26email_address%3Drvrv%2540gmail.com%26service_preference%3Dnew-builds)
+ ![Home Page](assets/readme/homepage-pass-validator.png)
+   - [Homepage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Findex.html)
+   - [Quizzes Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fquizzes.html)
+   - [Triva Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fquizz-triva.html) Error because image is hidden until event happens
+   - [Sport Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fsport-quizz.html) Error because image is hidden until event happens
+   - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Ffilm-quizz.html) Error because image is hidden until event happens
+   - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fmusic-quizz.html) Error because image is hidden until event happens
+   - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fcontact-us.html)
+   - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fthank-you.html%3Ffirst_name%3Dcdcd%26last_name%3Ddcdc%26email_address%3Dcdd%2540gmail.com)
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
   - The website passed with no errors
 
-  ![CSS Pass](assets/images/readme-images/css-pass.png)
+  ![CSS Pass](assets/readme/css-pass-validator.png)
 
   ### See links below for Results:
 
-   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwlillisdev.github.io%2Fhudson-homes%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - [CSS Test Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
  
 ## Lighthouse
@@ -224,7 +228,7 @@ __Thank You Page__
 
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
 
- ![Hompage](assets/images/readme-images/light-house-home.png)
+ ![Hompage](assets/readme/lighthouse-homepage-crop.png)
  - [Service Page lighthouse results](assets/images/readme-images/light-house-service.png)
  - [Contact Us lighthoust results](assets/images/readme-images/light-house-contact.png)
 
