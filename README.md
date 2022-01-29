@@ -229,8 +229,17 @@ __Thank You Page__
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
 
  ![Hompage](assets/readme/lighthouse-homepage-crop.png)
- - [Service Page lighthouse results](assets/images/readme-images/light-house-service.png)
- - [Contact Us lighthoust results](assets/images/readme-images/light-house-contact.png)
+ - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) reulsts are slightly down mainly due to the intergation of google maps api.
+ - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
+
+ ## Jshint
+ - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
+
+ - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
+
+ ![Hompage](assets/readme/lighthouse-homepage-crop.png)
+ - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) reulsts are slightly down mainly due to the intergation of google maps api.
+ - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
 
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
