@@ -214,12 +214,12 @@ span.fade {
     justify-content: center;
 }
 
-#square a {
+.square a {
     text-decoration: none;
     color: inherit;
 }
 
-#square:hover {
+.square:hover {
     background-color: rgb(254, 193, 0);
 }
 

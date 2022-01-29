@@ -232,8 +232,9 @@ __Thank You Page__
  - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) reulsts are slightly down mainly due to the intergation of google maps api.
  - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
 
- ## Jshint
- - Lighthouse testing was carried out in Developer Tools in Chrome. Initially it gave a number of improvements and flagged up a number of images that needed to be reduced in size. Which was done.
+ ## Java Script
+ - The [JShint](https://jshint.com/) was used to validate the **JavaScrip** code
+ - The results initally highlighted a few warnings.
 
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
 
