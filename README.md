@@ -16,7 +16,7 @@ The goal of the website is to create a truthworthy online resource for users fro
 - ### Music
 Each quizz has multiple choice answers giving the user a choie of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
 The user is also given the answers after the quizz so they can see where they went wrong and build a level of trust between the user and the site.
-The site will be targeted toward a broad demographic intially Adult but with the aim to also build a childrens quizzes and more interactivity.
+The site will be targeted toward a broad demographic intially Adults but with the aim to also build out childrens quizzes and more interactivity.
 
 
 # User Stories
