@@ -30,7 +30,18 @@ function initMap() {
    //Australia fact
    {location:{lat: -36.6795, lng: 148.1879},content: `<h2>Australia</h2><p>The Australian Alps get more snow than the Swiss Alps</p>`},
    //Russia fact
-   {location:{lat: 61.5240, lng: 105.3188},content: `<h2>Russia</h2><p>20% Of the Earths Trees Are in Russia</p>`},  
+   {location:{lat: 61.5240, lng: 105.3188},content: `<h2>Russia</h2><p>20% Of the Earths Trees Are in Russia</p>`},
+   //Italy fact
+   {location:{lat: 40.8518, lng: 14.2681},content: `<h2>Napoli</h2><p> Pizza: was invented in Napoli around 1860</p>`},
+   //India Fact
+   {location:{lat: 28.6139, lng: 77.2090},content: `<h2>India</h2><p>India has the second largest population in the world, with just under 1.4 billion inhabitants</p>`}, 
+   //China Fact
+   {location:{lat: 39.9042, lng: 116.4074},content: `<h2>China</h2><p>China is home to the world’s largest canal,called the Grand canal it is 1776 km long</p>`},  
+   //Moscow Fact
+   {location:{lat: 55.7558, lng: 37.6173},content: `<h2>Moscow</h2><p>is home to the 200-tonne Tsar Bell, the largest bell in the world</p>`}, 
+   //Mexico Fact
+   {location:{lat: 19.4326, lng: -99.1332},content: `<h2>Mexico</h2><p>Mexico City was built on a lake,The city sinks around 12cm annually.</p>`},
+
   ]
 
    //creat a loop to run through markers
