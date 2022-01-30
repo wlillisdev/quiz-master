@@ -47,7 +47,7 @@ The website has been designed to operate on a number of screen and devices.The f
  [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
 
 __Favicon__
- - As the company logo is a question mark combined with yellow branding, a quesion mark with a yellow back ground was created [favicon.io](https://favicon.io/)
+ - As the company logo is a question mark combined with yellow branding it is quiet eye catching.
  - This favicon is quiet eye cathing and will stand out. 
  
 ![favicon](assets/readme/favicon-new.png)
