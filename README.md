@@ -235,13 +235,12 @@ __Thank You Page__
  ## Java Script
  - The [JShint](https://jshint.com/) was used to validate the **JavaScrip** code
  - The results initally highlighted a few warnings.
+     - [Erros From JShint](assets/readme/jshint-error.png)
+     
+ - Each item was adressed, The validation loop for the quizz was edited to remove eval. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
 
- - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
-
- ![Hompage](assets/readme/lighthouse-homepage-crop.png)
- - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) reulsts are slightly down mainly due to the intergation of google maps api.
- - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
-
+ ![JShint Scan Pass](assets/readme/jshint-scan-pass.png)
+ 
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
   - The form was checked that name and email were required, that the radio buttons functioned and that the submit button worked.
