@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![Home page Quizz Master](assets/readme/quizz-master-home.png)
+![Home page Quizz Master](assets/readme/new-hero.png)
 
 This website is designed for Quizz Master who is an online based quizz company. There aim is to become the markert leader in online quizzes and be a hub for quizz lovers all over the world.
 
@@ -58,7 +58,7 @@ __Navigation Bar__
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements also change colour when hovered over and also has an active line under each link when clicked which adds to the user experience.  
 
- ![Navigation Bar](assets/readme/header.png)
+ ![Navigation Bar](assets/readme/header-new.png)
 
 __Landing Page__
 
@@ -83,7 +83,7 @@ __Fact Generator__
   - This is aimed at grabbing a new users attention and helping to ensourage a user to click on a quizz after playing.
   - The button has a hover effect and will change color once clicked.
 
- ![Fact Generator](assets/readme/fact-generator.png)
+ ![Fact Generator](assets/readme/new-fact-generator.png)
 
 
 __Footer__
