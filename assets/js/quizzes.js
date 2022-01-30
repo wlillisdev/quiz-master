@@ -36,11 +36,23 @@ function initMap() {
    //India Fact
    {location:{lat: 28.6139, lng: 77.2090},content: `<h2>India</h2><p>India has the second largest population in the world, with just under 1.4 billion inhabitants</p>`}, 
    //China Fact
-   {location:{lat: 39.9042, lng: 116.4074},content: `<h2>China</h2><p>China is home to the world’s largest canal,called the Grand canal it is 1776 km long</p>`},  
+   {location:{lat: 39.9042, lng: 116.4074},content: `<h2>China</h2><p>China is home to the worlds largest canal,called the Grand canal it is 1776 km long</p>`},  
    //Moscow Fact
    {location:{lat: 55.7558, lng: 37.6173},content: `<h2>Moscow</h2><p>is home to the 200-tonne Tsar Bell, the largest bell in the world</p>`}, 
    //Mexico Fact
    {location:{lat: 19.4326, lng: -99.1332},content: `<h2>Mexico</h2><p>Mexico City was built on a lake,The city sinks around 12cm annually.</p>`},
+   //Alaska Fact
+   {location:{lat: 58.3019, lng: -134.4197},content: `<h2>Alaska</h2><p>There are more than 3,000 rivers and 3 million lakes in Alaska</p>`},
+   //Greenland Fact
+   {location:{lat: 64.1814, lng: -51.6941},content: `<h2>Greenland</h2><p>Almost 80 percent of the land mass is covered by an ice cap and glaciers</p>`},
+   //Colorado Fact
+   {location:{lat:39.7392, lng: -104.9903},content: `<h2>Colorado</h2><p>is home to the worlds largest natural hot springs swimming pool.</p>`},
+   //Libya Fact
+   {location:{lat:26.3351, lng: 17.2283},content: `<h2>Libya</h2><p>Home To The Largest Proven Oil Reserves In Africa</p>`},
+   //Argentina  Fact
+   {location:{lat:-34.6037, lng: -58.3816},content: `<h2>Argentina</h2><p>The name “Argentina” derived from the Latin word “silver”</p>`},
+   //Kazakhstan  Fact
+   {location:{lat:48.0196, lng: 66.9237},content: `<h2>Kazakhstan</h2><p>The border between Russia and Kazakhstan is the longest continuous land border in the world (7512.8 kilometers)</p>`},
 
   ]
 
