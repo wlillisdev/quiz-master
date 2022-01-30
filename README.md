@@ -255,8 +255,9 @@ __Thank You Page__
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
-  - The what we do section on the home page i was having trouble in getting it to be responsvie, i decieded to implement css grid which worked out well and fixed the problem.
-  - On low quailty smart phones with with pixle width less than 300px the hompe page hero text banner did not look great, so i decided to add a media query and remove it  as i felt it was affecting user experience.
+  - Initally i had a mouse over event listiner on google maps markers but this was no use for mobile which i relaised when testing,so i changed it to onclick event.
+  - I had eval in my validate quizz function, jshint gave this as a warning and a potential security risk so i removed it.
+  
 
   # Unfixed Bugs
   - I am aware there is a console.log Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.From what i have researched this is a issue between Github and Google and has no effect on the sites performance.

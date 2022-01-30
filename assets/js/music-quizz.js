@@ -78,7 +78,7 @@
     window.scrollTo(0, document.body.scrollHeight);
     }, 100);
 }
-
+//Reset button will hide quizz result once pressed
 function hide() {
     document.getElementById("after_submit").style.visibility = "hidden";
 }
