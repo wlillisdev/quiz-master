@@ -50,7 +50,7 @@ __Favicon__
  - As the company logo is a question mark combined with yellow branding, a quesion mark with a yellow back ground was created [favicon.io](https://favicon.io/)
  - This favicon is quiet eye cathing and will stand out. 
  
-![favicon](favicon.ico)
+![favicon](assets/readme/favicon-new.png)
 
 __Navigation Bar__
  
