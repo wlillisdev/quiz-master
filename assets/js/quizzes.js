@@ -1,7 +1,10 @@
-// Tutorials on youtube form Traversy Media & Sam Codes were followed.
-
-
-// Initialize and add the base google map
+/**
+ * Function to check Quizz Answers.
+ * It will check users answers and give a point for correct answer.
+ * And the end of quizz it will give the user how many quesion they got right.
+ * Tutorials on youtube form Traversy Media & Sam Codes were followed.
+ */
+  // Initialize and add the base google map
 function initMap() {
   let options = {
     center: {
