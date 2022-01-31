@@ -4,19 +4,20 @@
 
 ![Home page Quizz Master](assets/readme/image-home-new.png)
 
-This website is designed for Quizz Master who is an online based quizz company. There aim is to become the markert leader in online quizzes and be a hub for quizz lovers all over the world.
+This website is designed for Quiz Master who is an online based quizz company. Their aim is to become the market  leader in online quizzes and be a hub for quizz lovers all over the world.
 
 # Aim of Website
 
-The goal of the website is to create a truthworthy online resource for users from all over the world to play quizzes & learn intresting facts. Currently there are only 4 main quiz topics.
+The goal of the website is to create a trustworthy  online resource for users from all over the world to play quizzes & learn interesting  facts. Currently there are only 4 main quiz topics.
 
 - ### Triva
 - ### Sport
 - ### Film
 - ### Music
-Each quizz has multiple choice answers giving the user a choie of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
-The user is also given the answers after the quizz so they can see where they went wrong and build a level of trust between the user and the site.
-The site will be targeted toward a broad demographic intially Adults but with the aim to also build out childrens quizzes and more interactivity.
+
+Each quiz has multiple choice answers giving the user a choice  of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
+The user is also given the answers after the quiz so they can see where they went wrong and build a level of trust between the user and the site.
+The site will be targeted toward a broad demographic initially  Adults but with the aim to also build out children’s quizzes and more interactivity.
 
 
 # User Stories
@@ -26,12 +27,12 @@ The site will be targeted toward a broad demographic intially Adults but with th
   - As a first-time visitor, I want to be able to easily navigate around the site to find the content I'm looking for.
 
 - Returning Visitors Aims:
-  - As a returning visitor, I would like to learn about diffrent quizz categories and try more quizzes.
-  - As a returning visitor, I want to interact with fact generator and intresting facts map of the world. 
+  - As a returning visitor, I would like to learn about different  quiz categories and try more quizzes.
+  - As a returning visitor, I want to interact with fact generator and interesting  facts map of the world. 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
 # Responsive 
-The website has been designed to operate on a number of screen and devices.The following test were acrred out on [Am I Responsive](http://ami.responsivedesign.is/)
+The website has been designed to operate on a number of screen and devices.The following test were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
  - Homepage (displayed below)
 
 ![Am I Responsive Test Homepage](assets/readme/new-reponsive-home.png)
@@ -48,7 +49,7 @@ The website has been designed to operate on a number of screen and devices.The f
 
 __Favicon__
  - As the company logo is a question mark combined with yellow branding it is quiet eye catching.
- - This favicon is quiet eye cathing and will stand out. 
+ - This favicon is quiet eye catching  and will stand out. 
  
 ![favicon](assets/readme/favicon-new.png)
 
@@ -63,24 +64,24 @@ __Navigation Bar__
 __Landing Page__
 
   - The landing page contains an eye-catching background image of a shelves of books that infers the theme of knowledge and quizzes.
-  - The text are you ready for  is annimated on page load and catches the users attention staight away, it is bold and white and contrasts well with background image.
+  - The text are you ready for  is animated  on page load and catches the users attention straight  away, it is bold and white and contrasts well with background image.
   - It also has a call to action with a button i want to play,that jumps to the category section of the homepage.
 
  ![Landing](assets/readme/landing-page.png)
 
 
-__About Us & Quizz Category__
+__About Us & Quiz Category__
 
-  - About Us section is a very brief description about Quizz Master to quickly the user more information about the company.
-  - The Quizz Category section, quickly shows the four main quizz categories.Triva,Sport,Film,Music.
-  - Each Category will change color once hovered over, once clicked it will lead the user to the quizz page.
+  - About Us section is a very brief description about Quiz Master to quickly the user more information about the company.
+  - The Quizz Category section, quickly shows the four main quiz categories.Triva,Sport,Film,Music.
+  - Each Category will change color once hovered over, once clicked it will lead the user to the quiz page.
 
  ![About & Category](assets/readme/about-us-new.png)
 
 __Fact Generator__
 
-  - This is a fun app that will create a new random intresting fact everytime the user clicks on the button.
-  - This is aimed at grabbing a new users attention and helping to ensourage a user to click on a quizz after playing.
+  - This is a fun app that will create a new random interesting  fact every time the user clicks on the button.
+  - This is aimed at grabbing a new users attention and helping to encourage  a user to click on a quiz after playing.
   - The button has a hover effect and will change color once clicked.
 
  ![Fact Generator](assets/readme/new-fact-generator.png)
@@ -101,16 +102,16 @@ __Footer__
 
 __Quizzes Page__
 
-  -  This page clearly lays out the main quizz topics.The user can easily navigate to the diffrent quizzes.
-  - Each specific quiz category has an eye catching image relation to the diffrent topics.Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
+  -  This page clearly lays out the main quiz topics. The user can easily navigate to the diffrent quizzes.
+  - Each specific quiz category has an eye catching image relation to the different topics. Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
   - At the bottom of the page there is an interactive google map. The map has various markers at locations all around the world.
-  - When the user clicks on the marker a info window appears and the users can view an intresting fact from this location.
-  - This is aimed at improveing the users engagemnet on the site.As all quizz lovers enjoys intresting facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
+  - When the user clicks on the marker a info window appears and the users can view an interesting fact from this location.
+  - This is aimed at improving  the users engagement  on the site. As all quiz lovers enjoys interesting  facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
   
   - Quizzes Page
  ![Quizz Featuer](assets/readme/quizzes-featuers.png)
 
- - Quizzes Page Google Map Featuer
+ - Quizzes Page Google Map Feature
  ![Map Quizzes Featuer](assets/readme/map-quizzes.png)
 
   [View Quizzes Page Featuers](https://wlillisdev.github.io/quiz-master/quizzes.html)
@@ -118,21 +119,21 @@ __Quizzes Page__
 
 __Quiz Page__
 
-  -  The quizz page is the same format on all quizzes, 5 questions with a multiple choice of 3 answers per question.The user answer is easily and quickly recorder in a radio input.
+  -  The quiz page is the same format on all quizzes, 5 questions with a multiple choice of 3 answers per question.The user answer is easily and quickly recorder in a radio input.
 
   - Quiz Page
  ![Quizz Featuer](assets/readme/quizz-page.png)
 
-  - The user has to answer all questions for the quizz to be sucessfull. If they dont they will be given an alert saying you have missed a question.
+  - The user has to answer all questions for the quiz to be successful. If they don't they will be given an alert saying you have missed a question.
 
   - Alert warning
  ![Quizz Featuer](assets/readme/alert-quizz.png)
 
-  - At the end of the quiz the user presses get reaults button, And a message tells them how many questions they have got correct.
-  - The results is also accompanied with a GIF image, there a 3 diffrent images that relate to diffrent score ranges.
+  - At the end of the quiz the user presses get results  button, And a message tells them how many questions they have got correct.
+  - The results is also accompanied with a GIF image, there a 3 different  images that relate to different  score ranges.
   - GIF for All Correct
-  ![Quizz Results](assets/readme/quizz-full-marks.png)
-  - The answers to the questions are also revaled once the user has submitted at the end of the quiz.  
+  ![Quiz Results](assets/readme/quizz-full-marks.png)
+  - The answers to the questions are also revealed  once the user has submitted at the end of the quiz.  
   
   [View Quiz Page Featuers](https://wlillisdev.github.io/quiz-master/quizz-triva.html)
 
@@ -142,8 +143,8 @@ __Contact Us Page__
 
  [View Contact Us Featuers](https://wlillisdev.github.io/quiz-master/contact-us.html)
 
-  - It has a simple but elegant contact us form layout. That captures enough information so Quiz Maaster can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
-  - It also has a video background of question marks. It continues the animation theme from the home page it is fun and intresting.
+  - It has a simple but elegant contact us form layout. That captures enough information so Quiz Master can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
+  - It also has a video background of question marks. It continues the animation theme from the home page it is fun and interesting.
  
  ![Contact Us Form](assets/readme/contact-us.png)
 
@@ -153,7 +154,7 @@ __Thank You Page__
 
 # Design
  - Theme
-   - The Theme of the website was to build a bright and engaging Quizz website with a blend of both quizzes and fun. 
+   - The Theme of the website was to build a bright and engaging Quiz website with a blend of both quizzes and fun. 
    - Fonts were imported from google fonts, Boogaloo for logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text. were picked as they were crisp and complimented each other and the theme of the site.
 
  - Color Palette
@@ -165,7 +166,7 @@ __Thank You Page__
    - The images that were selected for the website were bold and bright images related to the Quiz Genre.
 
 - Wireframes
-   - To create the initial layout and wireframe i used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
+   - To create the initial layout and wireframe I used Balsamiq. This helped fine tune the design and layout. It also helped in calculating the amount of content and images required.
 
   - ![Homepage Wireframe Concept](assets/readme/home-wireframe.png)
   - [Quizzes Page Wireframe Concept](assets/readme/quizzes-wireframe-new.png)
@@ -175,17 +176,17 @@ __Thank You Page__
 # Future Development
 
 - More Quiz Topics
-  - As the site growns so will the resource of quizz topics and questions.
+  - As the site grows so will the resource of quiz topics and questions.
         
 
-- Children Quizz 
+- Children Quizzes 
   - Children Quizzes section will be added at a later date, to broaden the reach of the website.
 
 - Subscription Section
-  - The site will initally have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
+  - The site will initially  have a number of quizzes free for everyone. But there will be an option for users to sign up to a monthly subscription service where they get exclusive quizzes every month.
 
 - Other Games
-  - As the site evloves so will the amount of games on the site, initally it is just quizzes, but it eventually have Crosswords, Word Search & Cryptograms.  
+  - As the site evolves  so will the amount of games on the site, initially  it is just quizzes, but it eventually have Crosswords, Word Search & Cryptograms.  
 
 # Testing
 
@@ -196,7 +197,7 @@ __Thank You Page__
    - A number of small errors were initially flagged up. Some duplicate tags were removed and I also had to rename a number of images. I also misplaced a link tag in the homepage, as I copied this page structure for the rest of the site i had to fix it on all of these pages also
      - [Erros From Validator Hompage](assets/readme/html-home-error.png)
      - [Erros From Validator Quizzes](assets/readme/error-validator-quizzes.png)
-     - [Erros From Validator Triva Quizz](assets/readme/validaor-error-triva-quiz.png)
+     - [Erros From Validator Triva Quiz](assets/readme/validaor-error-triva-quiz.png)
 
    
 
@@ -229,7 +230,7 @@ __Thank You Page__
  - The results were also skewed as the chrome extensions on my testing device was affecting the lighthouse results. The tests of all pages were redone in a incognito window and performance score increased.
 
  ![Hompage](assets/readme/lighthouse-homepage-crop.png)
- - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) reulsts are slightly down mainly due to the intergation of google maps api.
+ - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) results are slightly down mainly due to the integration  of google maps api.
  - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
 
  ## Java Script
@@ -237,17 +238,17 @@ __Thank You Page__
  - The results initally highlighted a few warnings.
      - [Erros From JShint](assets/readme/jshint-error.png)
      
- - Each item was adressed, The validation loop for the quizz was edited to remove eval. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
+ - Each item was addressed, The validation loop for the quizz was edited to remove eval. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
 
  ![JShint Scan Pass](assets/readme/jshint-scan-pass.png)
  
 ## Manual Testing
   - All the site links were manually tested to see if they all worked ok and linked to the correct locations.
   - The form was checked that name and email were required, that the radio buttons functioned and that the submit button worked.
-  - The site was further tested using feedback from mentor,family and friends who checked it on diffrent devices they had.
+  - The site was further tested using feedback from mentor,family and friends who checked it on different  devices they had.
   - All of the page's features were tested on Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, and Opera .
-  - Google Chrome's Developer Tool was used to inspect page elements during the build and helped indentify and debug issues within the HTML and CSS.
-  - The README.md was checked before final submission and links verfied.
+  - Google Chrome's Developer Tool was used to inspect page elements during the build and helped identify  and debug issues within the HTML and CSS.
+  - The README.md was checked before final submission and links verified.
 
 
 
@@ -255,8 +256,8 @@ __Thank You Page__
 
   - After running the site through HTML checker, a number of small bugs were identified. Each error was identified and an appropriate solution applied, i went through all pages and fixed any errors. It was good lesson and practice in finding problems with code and fixing them.
   - After Running all the pages through lighthouse, it identified issues with a number of images due to size. Lighthouse suggested to change some larger images which was done.
-  - Initally i had a mouse over event listiner on google maps markers but this was no use for mobile which i relaised when testing,so i changed it to onclick event.
-  - I had eval in my validate quizz function, jshint gave this as a warning and a potential security risk so i removed it.
+  - Initially  i had a mouse over event listener  on google maps markers but this was no use for mobile which i realised  when testing, so i changed it to onclick event.
+  - I had eval in my validate quiz function, jshint gave this as a warning and a potential security risk so i removed it.
   
 
   # Unfixed Bugs
