@@ -2,7 +2,7 @@
 
 - You can see the live website [here](https://wlillisdev.github.io/quiz-master/)..
 
-![Home page Quizz Master](assets/readme/new-hero.png)
+![Home page Quizz Master](assets/readme/image-home-new.png)
 
 This website is designed for Quizz Master who is an online based quizz company. There aim is to become the markert leader in online quizzes and be a hub for quizz lovers all over the world.
 
@@ -75,7 +75,7 @@ __About Us & Quizz Category__
   - The Quizz Category section, quickly shows the four main quizz categories.Triva,Sport,Film,Music.
   - Each Category will change color once hovered over, once clicked it will lead the user to the quizz page.
 
- ![About & Category](assets/readme/about-us.png)
+ ![About & Category](assets/readme/about-us-new.png)
 
 __Fact Generator__
 
