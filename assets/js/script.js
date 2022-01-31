@@ -30,13 +30,9 @@ function complete() {
     timer = null;
 }
 
-/**
- * Random fact Generator.
- * It will generate a new fact every time pressed.
- * 
- */
+// Random fact Generator.
 
-// Define Varaibles and elements for fact generator
+// Define Varaibles and elements for fact generator.It will generate a new fact every time pressed.
 let btn = document.getElementById("btn");
 let output = document.getElementById("fact");
 let facts =
