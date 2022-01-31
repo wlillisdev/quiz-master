@@ -34,7 +34,7 @@ The site will be targeted toward a broad demographic intially Adults but with th
 The website has been designed to operate on a number of screen and devices.The following test were acrred out on [Am I Responsive](http://ami.responsivedesign.is/)
  - Homepage (displayed below)
 
-![Am I Responsive Test Homepage](assets/readme/home-page-responsive.png)
+![Am I Responsive Test Homepage](assets/readme/new-reponsive-home.png)
 
  - Quizzes Page [Am I Responsive Test services Page ](assets/readme/services-page-responsive.png)
 
