@@ -244,7 +244,6 @@ span.fade {
 }
 
 .heading-gen {
-
     font-family: "Roboto", Arial;
     letter-spacing: 2px;
 }
@@ -261,7 +260,6 @@ span.fade {
 }
 
 #fact {
-
     font-family: "boogaloo", Arial;
     font-size: 2rem;
     padding-bottom: 20px;
@@ -506,7 +504,6 @@ span.fade {
 /* Quizz Triva Page*/
 
 .wrapper {
-
     width: 100%;
     text-align: center;
     display: flex;
@@ -516,7 +513,6 @@ span.fade {
 }
 
 #quiz-container {
-
     width: 450px;
     background: whitesmoke;
     border: white;
@@ -582,7 +578,6 @@ input {
 }
 
 .questions {
-
     font-family: "montserrat";
     font-weight: bold;
     line-height: 2rem;
@@ -597,7 +592,6 @@ input {
 }
 
 #message {
-
     font-size: 1.2rem;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -648,15 +642,6 @@ input {
         font-size: 2rem;
     }
 }
-
-/* @media (max-width: 600px) {
-
-    /* homepage */
-/* .card-wrapper {
-        column-count: 2;
-        display: block;
-    }
-} */
 
 @media (max-width: 400px) {
 
