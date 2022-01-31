@@ -261,8 +261,7 @@ __Thank You Page__
 
   # Unfixed Bugs
   - I am aware there is a console.log Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.From what i have researched this is a issue between Github and Google and has no effect on the sites performance.
-  - I am aware the website has a lot of large rich images and although images were cropped and compressed it could lead to reduced speed until cached. I have experimented with next gen image formats but curently they lack browser compatability so i just went with png compressed and cropped format for this site.
-
+  - I am aware the website has a lot of large rich images and although images were cropped and compressed it could lead to reduced speed until cached. I have experimented with next gen image formats but currently  they lack browser compatibility  so i just went with png compressed and cropped format for this site.
 
 
 # Deployment
@@ -288,7 +287,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 4. Open Git Bash and change the current working directory to the location where you want the cloned directory.
 
-5. Type git clone, and then paste the URL that was copied previouly in step 3.
+5. Type git clone, and then paste the URL that was copied previously  in step 3.
 
 6. Press Enter to create the local clone.
 
@@ -333,11 +332,11 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 -  ## Acknowledgements
  - Special thanks to my mentor Miguel Martinez
- for their help and guidance in the development of my project. Special thanks to my tutor Kasia and our regular class meeting’s and members of the awesome slack community
+ for his help and guidance in the development of my project. Special thanks to my tutor Kasia and our regular class meeting’s and members of the awesome slack community
 
 
    # Conclusion
-    - I would like to experiment more with java script but as i am only getting to grips with the language i kept concept simple.
+    - I would like to experiment more with javaScript but as i am only getting to grips with the language i kept concept simple.
     - If I was to build this site again, I would spend more time on the wireframes and know exactly how to structure each section and element before i start.
     - If i had time i would like to add a timer function to the quizz.    
     - I would also learn to make more commits during the project built.
