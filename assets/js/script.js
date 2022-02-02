@@ -1,7 +1,7 @@
   
 /**
  * Animate Text on Home Page.
- * Animates the text on the hero on the home page, adapted to site
+ * Animates Are you Ready for A  text on the hero home page, adapted to site
  * -credit https://codepen.io/bulldogpatch-the-sasster/pen/JjoyeGg.
  */ /*jshint esversion: 6 */
 const text = document.querySelector(".heading-hero, heading-hero-line");

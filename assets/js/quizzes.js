@@ -1,8 +1,8 @@
 /**
- * Function to check Quizz Answers.
- * It will check users answers and give a point for correct answer.
- * And the end of quizz it will give the user how many quesion they got right.
- * Tutorials on youtube form Traversy Media & Sam Codes were followed.
+ * Function to create google map from an API.
+ * it will add a new marker on map from an array of diffrent lat longs.
+ * Each new marker will be clickable to reval an intresting fact when clicked.
+ * Tutorials on youtube form Traversy Media & Sam Codes were followed to devlop function.
  */
   // Initialize and add the base google map
 function initMap() {
