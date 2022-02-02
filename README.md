@@ -211,7 +211,7 @@ __Thank You Page__
    - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Ffilm-quizz.html) Error because image is hidden until event happens
    - [Film Quizz](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fmusic-quizz.html) Error because image is hidden until event happens
    - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fcontact-us.html)
-   - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fthank-you.html%3Ffirst_name%3Dcdcd%26last_name%3Ddcdc%26email_address%3Dcdd%2540gmail.com)
+   - [Thank You Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwlillisdev.github.io%2Fquiz-master%2Fthank-you.html)
 
 ## CSS Validator
   - The [W3C](https://validator.w3.org/) was used to validate the **CSS** code
@@ -233,12 +233,12 @@ __Thank You Page__
  - [Quizzes Page lighthouse results](assets/readme/quizzes-pages-lighthouse.png) results are slightly down mainly due to the integration  of google maps api.
  - [Contact Us lighthoust results](assets/readme/contact-lighthouse-crop.png)
 
- ## Java Script
+ ## JavaScript
  - The [JShint](https://jshint.com/) was used to validate the **JavaScrip** code
  - The results initally highlighted a few warnings.
      - [Erros From JShint](assets/readme/jshint-error.png)
      
- - Each item was addressed, The validation loop for the quizz was edited to remove eval. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
+ - Each item was addressed, The validation loop for the quizz was edited to remove eval as Jshint highlighted it could be harmful for security issues. And stack overflow suggested adding / /*jshint esversion: 6 */ to the notes this prevented this error.
 
  ![JShint Scan Pass](assets/readme/jshint-scan-pass.png)
  
