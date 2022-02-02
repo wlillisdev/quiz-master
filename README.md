@@ -337,7 +337,7 @@ The site was created using Visual Studio Code and GitHub, and deployed to GitHub
 
 
    # Conclusion
-    - I would like to experiment more with javaScript but as i am only getting to grips with the language i kept concept simple.
+    - I would like to experiment more with javaScript but as i am only getting to grips with the language i kept the concept simple.
     - If I was to build this site again, I would spend more time on the wireframes and know exactly how to structure each section and element before i start.
     - If i had time i would like to add a timer function to the quizz.    
     - I would also learn to make more commits during the project built.
