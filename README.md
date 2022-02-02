@@ -4,11 +4,11 @@
 
 ![Home page Quizz Master](assets/readme/image-home-new.png)
 
-This website is designed for Quiz Master who is an online based quizz company. Their aim is to become the market  leader in online quizzes and be a hub for quizz lovers all over the world.
+This website is designed for Quiz Master who is an online quizz company. Their aim is to become the market  leader in online quizzes and be a hub for quizz lovers all over the world.
 
 # Aim of Website
 
-The goal of the website is to create a trustworthy  online resource for users from all over the world to play quizzes & learn interesting  facts. Currently there are only 4 main quiz topics.
+The goal of the website is to create a trustworthy  online resource for users from all over the world to play quizzes & learn interesting  facts. Currently there are 4 main quiz topics.
 
 - ### Triva
 - ### Sport
@@ -17,7 +17,7 @@ The goal of the website is to create a trustworthy  online resource for users fr
 
 Each quiz has multiple choice answers giving the user a choice  of 3 answers for each question. With the aim of retaining the user on the website as long as possible.  
 The user is also given the answers after the quiz so they can see where they went wrong and build a level of trust between the user and the site.
-The site will be targeted toward a broad demographic initially  Adults but with the aim to also build out children’s quizzes and more interactivity.
+The site will be targeted toward  Adults initally, but with the aim to also build out children’s quizzes and more interactivity at a later stage.
 
 
 # User Stories
@@ -32,7 +32,7 @@ The site will be targeted toward a broad demographic initially  Adults but with 
   - As a returning visitor, I would like to find links to their social media channels and follow them.
 
 # Responsive 
-The website has been designed to operate on a number of screen and devices.The following test were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
+The website has been designed to operate on a number of screens and devices.The following tests were carried  out on [Am I Responsive](http://ami.responsivedesign.is/)
  - Homepage (displayed below)
 
 ![Am I Responsive Test Homepage](assets/readme/new-reponsive-home.png)
@@ -48,14 +48,13 @@ The website has been designed to operate on a number of screen and devices.The f
  [View Homepage Featuers](https://wlillisdev.github.io/quiz-master/index.html)
 
 __Favicon__
- - As the company logo is a question mark combined with yellow branding it is quiet eye catching.
- - This favicon is quiet eye catching  and will stand out. 
- 
+ - As the company logo is a question mark i combined this with yellow branding to make an eye catching Favicon.
+  
 ![favicon](assets/readme/favicon-new.png)
 
 __Navigation Bar__
  
-  - The Navigation bar is located at the top of all three Pages. It is simple but clean design. It includes the logo, Home page, Quizzes and Contact Us page.
+  - The Navigation bar is located at the top of all  Pages. It is simple but clean design. It includes the logo, Home page, Quizzes and Contact Us page.
   - It will allow a visitor to quickly and easily get around the site as each link logically leads to the next.
   - The nav elements also change colour when hovered over and also has an active line under each link when clicked which adds to the user experience.  
 
@@ -72,7 +71,7 @@ __Landing Page__
 
 __About Us & Quiz Category__
 
-  - About Us section is a very brief description about Quiz Master to quickly the user more information about the company.
+  - About Us section is a very brief description about Quiz Master to quickly give the user more information about the company.
   - The Quizz Category section, quickly shows the four main quiz categories.Triva,Sport,Film,Music.
   - Each Category will change color once hovered over, once clicked it will lead the user to the quiz page.
 
@@ -90,8 +89,8 @@ __Fact Generator__
 __Footer__
 
   - The footer is simple and clean design it is the same on all pages of the website.
-  - It contains 3 social media platforms as requested by Hudson Homes they will also open in a new window to allow easy navigation for the user.
-  - The main aim of the footer is to increase engagement with visitors and get them to view new projects that are currently been built and showcase previous projects.With the goal of building confidence with new customers & getting them to subscribe to the various social channels. This is done with a simple text in the footer, Follow Our Recent Projects On. 
+  - It contains 3 social media platforms as requested by Quizz Master they will also open in a new window to allow easy navigation for the user.
+  - The main aim of the footer is to increase engagement with visitors.With the goal of getting the user to subscribe to the channel in order to get updates on new quizzes. 
 
  ![Footer Bar](assets/readme/footer.png)
 
@@ -103,7 +102,7 @@ __Footer__
 __Quizzes Page__
 
   -  This page clearly lays out the main quiz topics. The user can easily navigate to the diffrent quizzes.
-  - Each specific quiz category has an eye catching image relation to the different topics. Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
+  - Each specific quiz category has an eye catching image in relation to the different topics. Each topic has a button type icon in the centre of it that also has a hover effect to improve the users experience.
   - At the bottom of the page there is an interactive google map. The map has various markers at locations all around the world.
   - When the user clicks on the marker a info window appears and the users can view an interesting fact from this location.
   - This is aimed at improving  the users engagement  on the site. As all quiz lovers enjoys interesting  facts and information this map will cater for this need and provide some fun for the user as they take a break between quizzes.
@@ -144,7 +143,7 @@ __Contact Us Page__
  [View Contact Us Featuers](https://wlillisdev.github.io/quiz-master/contact-us.html)
 
   - It has a simple but elegant contact us form layout. That captures enough information so Quiz Master can follow up on the lead. And allows a user’s to quickly fill out the form with minimal information.
-  - It also has a video background of question marks. It continues the animation theme from the home page it is fun and interesting.
+  - It also has a video background of question marks. It continues the animation theme and quesion mark logo from the home page it is fun and interesting.
  
  ![Contact Us Form](assets/readme/contact-us.png)
 
@@ -155,7 +154,7 @@ __Thank You Page__
 # Design
  - Theme
    - The Theme of the website was to build a bright and engaging Quiz website with a blend of both quizzes and fun. 
-   - Fonts were imported from google fonts, Boogaloo for logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text. were picked as they were crisp and complimented each other and the theme of the site.
+   - Fonts were imported from google fonts, Boogaloo was used for the logo and nav menu, Libre Franklin for hompage hero text, Montserrat for headings, and Roboto for body text.These were picked as they were crisp and complimented each other and the theme of the site.
 
  - Color Palette
    - The color palette is made up of four main colors which creates a good contrast and helps support the overall theme.
@@ -177,7 +176,8 @@ __Thank You Page__
 
 - More Quiz Topics
   - As the site grows so will the resource of quiz topics and questions.
-        
+
+  - As the site grows we will intergrate an API into the random fact generator to generate an  infinite amount of new facts.        
 
 - Children Quizzes 
   - Children Quizzes section will be added at a later date, to broaden the reach of the website.
